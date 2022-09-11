@@ -15,6 +15,7 @@ def main():
     requires_to_update_markdown = requires_to_download_json
 
     if requires_to_download_json:
+        print('Updating JSON.')
         sandbox_ids_dict = load_sandbox_ids_dict()
         data = fetch_data_for_several_ids(sandbox_ids=sandbox_ids_dict.values())
         save_json(data, output_fname)
@@ -22,6 +23,7 @@ def main():
         data = load_json(output_fname)
 
     if requires_to_update_markdown:
+        print('Updating Markown.')
         data = populate_slugs(data)
         write_markdown_files(data)
 
