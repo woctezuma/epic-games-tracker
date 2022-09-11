@@ -11,7 +11,9 @@ def main():
     output_fname = get_fname_for_today()
     Path(output_fname).parent.mkdir(parents=True, exist_ok=True)
 
-    if not Path(output_fname).exists():
+    requires_to_download_json = not Path(output_fname).exists()
+
+    if requires_to_download_json:
         sandbox_ids_dict = load_sandbox_ids_dict()
         data = fetch_data_for_several_ids(sandbox_ids=sandbox_ids_dict.values())
         save_json(data, output_fname)
