@@ -11,7 +11,7 @@ def load_sandbox_ids_dict():
 def populate_slugs(data):
     sandbox_ids_dict = load_sandbox_ids_dict()
 
-    for slug, sandbox_id in sandbox_ids_dict:
+    for slug, sandbox_id in sandbox_ids_dict.items():
         data[sandbox_id]["slug"] = slug
 
     return data
