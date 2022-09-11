@@ -15,7 +15,7 @@ def format_data_as_markdown(data):
     lines = [get_timestamp_line(), "\n", HEADERS, TABLE_SEPARATOR]
 
     for i, entry in enumerate(data.values(), start=1):
-        concatenated_entry_values = '|'.join(entry[k] for k in ENTRY_FIELDS)
+        concatenated_entry_values = '|'.join(str(entry[k]) for k in ENTRY_FIELDS)
         line = f"|{i}|{concatenated_entry_values}|"
 
         lines.append(line)
