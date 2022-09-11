@@ -7,6 +7,11 @@ def get_current_date():
     return datetime.now()
 
 
+def get_current_date_as_str():
+    date = get_current_date()
+    return str(date)[:16]
+
+
 def get_folder_name_for_specific_day(date):
     return f"{DATA_FOLDER_NAME}/{date.year}/{date.month:02}"
 
