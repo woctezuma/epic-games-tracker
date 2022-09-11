@@ -1,0 +1,7 @@
+## Epic Games Tracker
+
+- [Sorted by Game Slug](by_game_slug.md)
+- [Sorted by Average Rating](by_average_rating.md)
+- [Sorted by Number of Raters](by_num_raters.md)
+- [Sorted by Number of Players](by_num_players.md)
+- [Sorted by Number of Platinum Trophies](by_num_platinum_trophies.md)
