@@ -13,6 +13,13 @@ This repository contains Python code to track the numbers of players and ratings
 pip install -r requirements.txt
 ```
 
+## Usage
+
+Run every day:
+```bash
+python fetch_data_for_today.py
+```
+
 ## Results
 
 Visit [the website][tracker-website].
