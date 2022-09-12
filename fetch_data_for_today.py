@@ -18,7 +18,7 @@ def main():
         print('Updating JSON.')
         sandbox_ids_dict = load_sandbox_ids_dict()
         data = fetch_data_for_several_ids(sandbox_ids=sandbox_ids_dict.values())
-        save_json(data, output_fname)
+        save_json(data, output_fname, prettify=True)
     else:
         data = load_json(output_fname)
 
