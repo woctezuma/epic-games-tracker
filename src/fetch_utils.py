@@ -11,7 +11,10 @@ def fetch_data_for_single_id(sandbox_id):
     game_rating = to_game_rating(sandbox_id)
 
     for s in GAME_RATING_FIELDS:
-        data[s] = game_rating[s]
+        try:
+            data[s] = game_rating[s]
+        except TypeError:
+            data[s] = None
 
     achievement = to_achievement(sandbox_id)
     achievement_summary = achievement["achievementSets"][0]
