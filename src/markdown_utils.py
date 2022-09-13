@@ -1,8 +1,8 @@
 from src.fetch_utils import GAME_RATING_FIELDS, ACHIEVEMENT_FIELDS
 from src.time_utils import get_current_date_as_str
 
-HEADERS = "| # | Game Slug | Average Rating | Number of Raters | Number of Players | Number of Platinum Trophies |"
-TABLE_SEPARATOR = "|---|---|---|---|---|---|"
+HEADERS = "| # | Game Slug | Average Rating | Number of Raters | Number of Players | Number of Platinum Trophies | Max Rarity (%) |"
+TABLE_SEPARATOR = "|---|---|---|---|---|---|---|"
 ENTRY_FIELDS = ['slug'] + GAME_RATING_FIELDS + ACHIEVEMENT_FIELDS
 
 
