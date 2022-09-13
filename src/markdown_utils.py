@@ -11,12 +11,17 @@ def get_timestamp_line():
     return f"Last updated on {date_as_str}."
 
 
+def to_table_row(row_no, str_elements):
+    concatenated_elements = '|'.join(str_elements)
+    line = f"|{row_no}|{concatenated_elements}|"
+    return line
+
+
 def format_data_as_markdown(data):
     lines = [get_timestamp_line(), "\n", HEADERS, TABLE_SEPARATOR]
 
     for i, entry in enumerate(data.values(), start=1):
-        concatenated_entry_values = '|'.join(str(entry[k]) for k in ENTRY_FIELDS)
-        line = f"|{i}|{concatenated_entry_values}|"
+        line = to_table_row(i, [str(entry[k]) for k in ENTRY_FIELDS])
 
         lines.append(line)
 
