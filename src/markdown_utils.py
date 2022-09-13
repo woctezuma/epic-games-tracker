@@ -4,7 +4,6 @@ from src.time_utils import get_current_date_as_str
 GAME_RATING_HEADERS = ["Average Rating", "Number of Raters"]
 ACHIEVEMENT_HEADERS = ["Number of Players", "Number of Platinum Trophies", "Max Rarity (%)"]
 HEADERS = ["Game Slug"] + GAME_RATING_HEADERS + ACHIEVEMENT_HEADERS
-TABLE_SEPARATOR = "|---|---|---|---|---|---|---|"
 ENTRY_FIELDS = ['slug'] + GAME_RATING_FIELDS + ACHIEVEMENT_FIELDS
 
 
@@ -24,8 +23,14 @@ def get_headers_line():
     return to_table_row(place_holder_for_number, HEADERS)
 
 
+def get_separator_line():
+    place_holder = '---'
+    num_headers = len(HEADERS)
+    return to_table_row(place_holder, [place_holder] * num_headers)
+
+
 def format_data_as_markdown(data):
-    lines = [get_timestamp_line(), "\n", get_headers_line(), TABLE_SEPARATOR]
+    lines = [get_timestamp_line(), "\n", get_headers_line(), get_separator_line()]
 
     for i, entry in enumerate(data.values(), start=1):
         line = to_table_row(i, [str(entry[k]) for k in ENTRY_FIELDS])
