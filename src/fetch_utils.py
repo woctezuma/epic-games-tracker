@@ -1,5 +1,6 @@
 from src.query_achievement import to_achievement
 from src.query_game_rating import to_game_rating
+from src.achievement_utils import summarize_achievement
 
 GAME_RATING_FIELDS = ['averageRating', 'ratingCount']
 ACHIEVEMENT_FIELDS = ['numProgressed', 'numCompleted']
@@ -17,7 +18,7 @@ def fetch_data_for_single_id(sandbox_id):
             data[s] = None
 
     achievement = to_achievement(sandbox_id)
-    achievement_summary = achievement["achievementSets"][0]
+    achievement_summary = summarize_achievement(achievement)
 
     for s in ACHIEVEMENT_FIELDS:
         data[s] = achievement_summary[s]
