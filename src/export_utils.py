@@ -39,4 +39,7 @@ def write_markdown_files(data):
     sorted_data = dict(sorted(data.items(), key=lambda x: x[1]["numCompleted"], reverse=True))
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_num_platinum_trophies.md")
 
+    sorted_data = dict(sorted(data.items(), key=lambda x: x[1]["maxRarity"], reverse=True))
+    write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_max_rarity.md")
+
     return
