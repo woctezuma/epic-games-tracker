@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from src.data_filters import hide_games_with_buggy_achievements
 from src.data_filters import hide_games_with_none_elements, hide_games_with_zero_player
 from src.data_utils import load_sandbox_ids_dict, populate_slugs
 from src.export_utils import write_markdown_files
@@ -28,6 +29,7 @@ def main():
         data = populate_slugs(data)
         data = hide_games_with_none_elements(data)
         data = hide_games_with_zero_player(data)
+        data = hide_games_with_buggy_achievements(data)
         write_markdown_files(data)
 
     return
