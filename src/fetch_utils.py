@@ -3,7 +3,7 @@ from src.query_game_rating import to_game_rating
 from src.achievement_utils import summarize_achievement
 
 GAME_RATING_FIELDS = ['averageRating', 'ratingCount']
-ACHIEVEMENT_FIELDS = ['numProgressed', 'numCompleted']
+ACHIEVEMENT_FIELDS = ['numProgressed', 'numCompleted', 'maxRarity']
 
 
 def fetch_data_for_single_id(sandbox_id):
