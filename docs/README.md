@@ -3,3 +3,4 @@
 - [Sorted by Number of Raters](by_num_raters.md)
 - [Sorted by Number of Players](by_num_players.md)
 - [Sorted by Number of Platinum Trophies](by_num_platinum_trophies.md)
+- [Sorted by Max Rarity](by_max_rarity.md)
