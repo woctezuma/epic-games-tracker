@@ -1,8 +1,6 @@
-from src.fetch_utils import GAME_RATING_FIELDS, ACHIEVEMENT_FIELDS
+from src.fields import GAME_RATING_FIELDS, ACHIEVEMENT_FIELDS, GAME_RATING_HEADERS, ACHIEVEMENT_HEADERS
 from src.time_utils import get_current_date_as_str
 
-GAME_RATING_HEADERS = ["Average Rating", "Number of Raters"]
-ACHIEVEMENT_HEADERS = ["Number of Players", "Number of Platinum Trophies", "Max Rarity (%)"]
 HEADERS = ["Game Slug"] + GAME_RATING_HEADERS + ACHIEVEMENT_HEADERS
 ENTRY_FIELDS = ['slug'] + GAME_RATING_FIELDS + ACHIEVEMENT_FIELDS
 
