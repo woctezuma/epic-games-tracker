@@ -1,9 +1,9 @@
-def has_at_lease_one_none_element(v):
+def is_missing_a_stat(v):
     return any(e is None for e in v.values())
 
 
-def hide_games_with_none_elements(data):
-    return {k: v for k, v in data.items() if not has_at_lease_one_none_element(v)}
+def hide_games_missing_a_stat(data):
+    return {k: v for k, v in data.items() if not is_missing_a_stat(v)}
 
 
 def has_players(v):
