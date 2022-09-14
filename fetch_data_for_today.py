@@ -2,6 +2,7 @@ from pathlib import Path
 
 from src.data_filters import hide_games_with_buggy_achievements
 from src.data_filters import hide_games_missing_a_stat, hide_games_with_zero_player
+from src.data_filters import hide_games_with_inconsistent_stats
 from src.data_utils import load_sandbox_ids_dict, populate_slugs
 from src.export_utils import write_markdown_files
 from src.fetch_utils import fetch_data_for_several_ids
@@ -28,6 +29,7 @@ def main():
         print('Updating Markown.')
         data = populate_slugs(data)
         data = hide_games_missing_a_stat(data)
+        data = hide_games_with_inconsistent_stats(data)
         data = hide_games_with_zero_player(data)
         data = hide_games_with_buggy_achievements(data)
         write_markdown_files(data)
