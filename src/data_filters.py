@@ -5,12 +5,12 @@ def hide_games_with_inconsistent_stats(data):
     return {k: v for k, v in data.items() if has_consistent_stats(v)}
 
 
-def is_missing_a_stat(v):
-    return any(e is None for e in v.values())
+def has_all_stats_filled_in(v):
+    return all(e is not None for e in v.values())
 
 
 def hide_games_missing_a_stat(data):
-    return {k: v for k, v in data.items() if not is_missing_a_stat(v)}
+    return {k: v for k, v in data.items() if has_all_stats_filled_in(v)}
 
 
 def has_players(v):
