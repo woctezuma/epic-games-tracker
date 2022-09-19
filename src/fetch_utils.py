@@ -1,13 +1,22 @@
+import time
+
 from src.achievement_utils import summarize_achievement
 from src.fields import GAME_RATING_FIELDS, ACHIEVEMENT_FIELDS
 from src.query_achievement import to_achievement
 from src.query_game_rating import to_game_rating
+
+COOLDOWN_DURATION_IN_SECONDS = 2
 
 
 def fetch_data_for_single_id(sandbox_id):
     data = dict()
 
     game_rating = to_game_rating(sandbox_id)
+
+    if game_rating is None:
+        print(f'Retrying {sandbox_id} in {COOLDOWN_DURATION_IN_SECONDS}s.')
+        time.sleep(COOLDOWN_DURATION_IN_SECONDS)
+        game_rating = to_game_rating(sandbox_id)
 
     for s in GAME_RATING_FIELDS:
         try:
