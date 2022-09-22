@@ -3,7 +3,7 @@ from src.api import send_post_request_to_api
 
 def get_params_to_query_achievement(sandbox_id):
     query_str = "{Achievement {productAchievementsRecordBySandbox"
-    query_str += f'(sandboxId: {sandbox_id}, locale: "en") '
+    query_str += f'(sandboxId: "{sandbox_id}", locale: "en") '
     query_str += "{"
     query_str += "achievementSets {numProgressed numCompleted} achievements {achievement {rarity {percent} } }"
     query_str += "}}}"

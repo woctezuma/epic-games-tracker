@@ -3,7 +3,7 @@ from src.api import send_post_request_to_api
 
 def get_params_to_query_game_rating(sandbox_id):
     query_str = "{RatingsPolls {getProductResult"
-    query_str += f'(sandboxId: {sandbox_id}, locale: "en") '
+    query_str += f'(sandboxId: "{sandbox_id}", locale: "en") '
     query_str += "{"
     query_str += "averageRating ratingCount"
     query_str += "}}}"
