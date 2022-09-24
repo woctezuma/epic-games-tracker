@@ -1,3 +1,4 @@
+from src.game_rating_utils import compute_rating_count
 from src.json_utils import load_json
 
 DATA_FOLDER_NAME = 'data'
@@ -19,6 +20,6 @@ def populate_slugs(data):
 
 def populate_rating_counts(data):
     for sandbox_id, v in data.items():
-        data[sandbox_id]["ratingCount"] = max(e['total'] for e in v['pollResult'])
+        data[sandbox_id]["ratingCount"] = compute_rating_count(v)
 
     return data
