@@ -1,5 +1,50 @@
-Last updated on 2022-09-24 12:05.
+Last updated on 2022-09-24 15:31.
 
 
 |#|Game Slug|Average Rating|Number of Raters|Number of Players|Number of Platinum Trophies|Max Rarity (%)|
 |---|---|---|---|---|---|---|
+|1|bugsnax|4.83|21|24855|1057|97|
+|2|crayta|4.19|34|104148|2|22|
+|3|crying-suns|4.5|105|434803|8|65|
+|4|cyberpunk-2077|4.57|16123|618076|494|60|
+|5|defense-grid|4.45|129|448060|2|79|
+|6|disco-elysium|4.87|401|91910|16|28|
+|7|dying-light|4.71|2089|981|0|98|
+|8|dying-light-2-stay-human|4.59|2965|328025|10|49|
+|9|fall-guys|4.54|105321|25054371|14999|90|
+|10|farming-simulator-22|4.72|1932|9833|2|87|
+|11|football-manager-2022|4.8|2299|365528|15|47|
+|12|hades|4.92|1720|629010|5320|89|
+|13|hitman-3|4.79|5250|1139584|1782|48|
+|14|horizon-chase-turbo|4.61|58|271056|81|83|
+|15|house-flipper|4.72|160|14531|14|93|
+|16|insurgency-sandstorm|4.59|167|137333|0|9|
+|17|ken-follets-the-pillars-of-the-earth|4.5|91|4133|48|60|
+|18|kena-bridge-of-spirits|4.68|777|402434|387|94|
+|19|kingdom-come-deliverance|4.71|4240|721514|24|30|
+|20|lawn-mowing-simulator-838bf3|4.08|144|457665|5|93|
+|21|lego-star-wars-the-skywalker-saga|4.8|1697|29125|92|98|
+|22|multiversus|4.57|3584|696623|21|82|
+|23|pc-building-simulator|4.67|592|3321664|19|47|
+|24|pillars-of-eternity|4.65|1147|918|2|79|
+|25|pinball-fx|3.98|80|82017|0|86|
+|26|ring-of-pain|4.57|749|189809|59|97|
+|27|rocket-league|4.54|131175|19189223|757|74|
+|28|rogue-legacy-2|4.86|167|16813|27|36|
+|29|salt-and-sacrifice|4.31|724|56727|974|91|
+|30|salt-and-sanctuary|4.61|159|479092|1061|83|
+|31|shop-titans-d95c1c|3.97|2566|95976|18|98|
+|32|sifu|4.8|3647|620679|11541|96|
+|33|skul-the-hero-slayer|4.69|76|4575|4|96|
+|34|stranger-of-paradise-final-fantasy-origin|4.47|408|64583|1591|98|
+|35|sunless-sea|4.59|113|5195|1|38|
+|36|supraland|4.61|6781|629862|525|100|
+|37|supraland-six-inches-under-dd0220|4.76|65|1425|170|99|
+|38|tannenberg|4.38|204|16465|3|71|
+|39|train-valley-2-3606da|4.03|51|217|0|89|
+|40|unrailed-e19729|4.64|120|359487|0|39|
+|41|verdun|4.5|49|3403|1|61|
+|42|weird-west-906661|4.41|22|371|0|72|
+|43|while-true-learn|4.51|83|543283|370|93|
+|44|wildermyth-593344|4.73|22|660|1|91|
+|45|zombie-army-4-dead-war|4.69|505|40216|22|66|
