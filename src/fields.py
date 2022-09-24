@@ -1,3 +1,4 @@
+RAW_RATING_FIELDS = ['averageRating', 'pollResult']
 GAME_RATING_FIELDS = ['averageRating', 'ratingCount']
 ACHIEVEMENT_FIELDS = ['numProgressed', 'numCompleted', 'maxRarity']
 GAME_RATING_HEADERS = ["Average Rating", "Number of Raters"]
