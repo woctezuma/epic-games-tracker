@@ -15,3 +15,10 @@ def populate_slugs(data):
         data[sandbox_id]["slug"] = slug
 
     return data
+
+
+def populate_rating_counts(data):
+    for sandbox_id, v in data.items():
+        data[sandbox_id]["ratingCount"] = max(e['total'] for e in v['pollResult'])
+
+    return data
