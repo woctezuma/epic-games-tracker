@@ -34,7 +34,8 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
 
         if slug not in page_mappings:
             mapping_data = to_page_mapping(slug)
-            page_mappings[slug] = get_sandbox_id(mapping_data)
+            if mapping_data is not None:
+                page_mappings[slug] = get_sandbox_id(mapping_data)
 
     return page_mappings
 
