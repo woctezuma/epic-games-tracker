@@ -1,3 +1,6 @@
+from src.slug_utils import to_slug
+
+
 def get_total_num_store_elements(store_data):
     return store_data["paging"]["total"]
 
@@ -8,7 +11,7 @@ def get_store_elements(store_data):
 
 def get_page_slug(store_element):
     try:
-        page_slug = store_element["offerMappings"][0]["pageSlug"]
+        page_slug = to_slug(store_element)
     except (IndexError, KeyError, TypeError):
         page_slug = None
 
