@@ -10,7 +10,7 @@ def load_tracked_page_mappings():
     return load_json(f"{DATA_FOLDER_NAME}/{SANDBOX_IDS_FNAME}")
 
 
-def load_all_sandbox_ids_dict():
+def load_all_page_mappings():
     try:
         data = load_json(f"{DATA_FOLDER_NAME}/{PAGE_MAPPINGS_FNAME}")
     except FileNotFoundError:
