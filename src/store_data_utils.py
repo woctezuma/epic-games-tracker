@@ -8,8 +8,8 @@ def get_store_elements(store_data):
 
 def get_page_slug(store_element):
     try:
-        page_slug = store_element["offerMappings"]["pageSlug"]
-    except KeyError:
+        page_slug = store_element["offerMappings"][0]["pageSlug"]
+    except (IndexError, KeyError):
         page_slug = None
 
     return page_slug
