@@ -4,6 +4,7 @@ from src.json_utils import load_json
 DATA_FOLDER_NAME = 'data'
 SANDBOX_IDS_FNAME = f'{DATA_FOLDER_NAME}/sandbox_ids.json'
 PAGE_MAPPINGS_FNAME = f'{DATA_FOLDER_NAME}/page_mappings.json'
+PAGE_SLUGS_FNAME = f'{DATA_FOLDER_NAME}/page_slugs.json'
 
 
 def load_tracked_page_mappings():
