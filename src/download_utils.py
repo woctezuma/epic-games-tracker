@@ -47,7 +47,7 @@ def filter_page_mappings_based_on_achievement_support(page_mappings, known_suppo
     support = known_support
     num_slugs = len(page_mappings)
 
-    for i, slug in enumerate(sorted(page_mappings), start=1):
+    for i, slug in enumerate(sorted(page_mappings, key=lambda x: (len(x), x)), start=1):
         print(f'[{i}/{num_slugs}] {slug}')
 
         if slug not in support:
