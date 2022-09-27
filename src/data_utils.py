@@ -3,7 +3,7 @@ from src.json_utils import load_json
 
 DATA_FOLDER_NAME = 'data'
 SANDBOX_IDS_FNAME = 'sandbox_ids.json'
-ALL_SANDBOX_IDS_FNAME = 'sandbox_ids_all.json'
+PAGE_MAPPINGS_FNAME = 'page_mappings.json'
 
 
 def load_sandbox_ids_dict():
@@ -12,7 +12,7 @@ def load_sandbox_ids_dict():
 
 def load_all_sandbox_ids_dict():
     try:
-        data = load_json(f"{DATA_FOLDER_NAME}/{ALL_SANDBOX_IDS_FNAME}")
+        data = load_json(f"{DATA_FOLDER_NAME}/{PAGE_MAPPINGS_FNAME}")
     except FileNotFoundError:
         data = {}
 
