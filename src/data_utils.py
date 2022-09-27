@@ -6,7 +6,7 @@ SANDBOX_IDS_FNAME = 'sandbox_ids.json'
 PAGE_MAPPINGS_FNAME = 'page_mappings.json'
 
 
-def load_sandbox_ids_dict():
+def load_tracked_page_mappings():
     return load_json(f"{DATA_FOLDER_NAME}/{SANDBOX_IDS_FNAME}")
 
 
@@ -20,7 +20,7 @@ def load_all_sandbox_ids_dict():
 
 
 def populate_slugs(data):
-    sandbox_ids_dict = load_sandbox_ids_dict()
+    sandbox_ids_dict = load_tracked_page_mappings()
 
     for slug, sandbox_id in sandbox_ids_dict.items():
         data[sandbox_id]["slug"] = slug

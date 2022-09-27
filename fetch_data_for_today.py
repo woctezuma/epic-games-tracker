@@ -3,7 +3,7 @@ from pathlib import Path
 from src.data_filters import hide_games_with_buggy_achievements
 from src.data_filters import hide_games_missing_a_stat, hide_games_with_zero_player
 from src.data_filters import hide_games_with_inconsistent_stats
-from src.data_utils import load_sandbox_ids_dict, populate_slugs, populate_rating_counts
+from src.data_utils import load_tracked_page_mappings, populate_slugs, populate_rating_counts
 from src.export_utils import write_markdown_files
 from src.fetch_utils import fetch_data_for_several_ids
 from src.json_utils import save_json, load_json
@@ -19,7 +19,7 @@ def main():
 
     if requires_to_download_json:
         print('Updating JSON.')
-        sandbox_ids_dict = load_sandbox_ids_dict()
+        sandbox_ids_dict = load_tracked_page_mappings()
         data = fetch_data_for_several_ids(sandbox_ids=sandbox_ids_dict.values())
         save_json(data, output_fname, prettify=True)
     else:
