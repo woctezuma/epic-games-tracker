@@ -1,3 +1,5 @@
+from src.page_mapping_utils import get_sandbox_id
+from src.query_page_mapping import to_page_mapping
 from src.query_store_data import to_store_data
 from src.store_data_utils import get_total_num_store_elements, get_page_slugs
 
@@ -16,3 +18,20 @@ def download_page_slugs(include_dlc=False):
         page_slugs += get_page_slugs(store_data)
 
     return page_slugs
+
+
+def download_page_mappings(page_slugs, known_page_mappings=None):
+    if known_page_mappings is None:
+        known_page_mappings = dict()
+
+    page_mappings = known_page_mappings
+    num_slugs = len(page_slugs)
+
+    for i, slug in enumerate(sorted(page_slugs), start=1):
+        print(f'[{i}/{num_slugs}] {slug}')
+
+        if slug not in page_mappings:
+            mapping_data = to_page_mapping(slug)
+            page_mappings[slug] = get_sandbox_id(mapping_data)
+
+    return page_mappings
