@@ -1,4 +1,6 @@
+from src.achievement_support_utils import supports_achievements
 from src.page_mapping_utils import get_sandbox_id
+from src.query_achievement_support import to_achievement_support
 from src.query_page_mapping import to_page_mapping
 from src.query_store_data import to_store_data
 from src.store_data_utils import get_total_num_store_elements, get_page_slugs
@@ -35,3 +37,23 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
             page_mappings[slug] = get_sandbox_id(mapping_data)
 
     return page_mappings
+
+
+def filter_page_mappings_based_on_achievement_support(page_mappings, known_support=None):
+    if known_support is None:
+        known_support = dict()
+
+    support = known_support
+    num_slugs = len(page_mappings)
+
+    for i, slug in enumerate(sorted(page_mappings), start=1):
+        print(f'[{i}/{num_slugs}] {slug}')
+
+        if slug not in support:
+            sandbox_id = page_mappings[slug]
+            achievement_data = to_achievement_support(sandbox_id)
+
+            if supports_achievements(achievement_data):
+                support[slug] = sandbox_id
+
+    return support
