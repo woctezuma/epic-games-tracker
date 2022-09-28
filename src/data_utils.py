@@ -1,5 +1,5 @@
 from src.game_rating_utils import compute_rating_count
-from src.json_utils import load_json
+from src.json_utils import load_json_failsafe
 
 DATA_FOLDER_NAME = 'data'
 SANDBOX_IDS_FNAME = f'{DATA_FOLDER_NAME}/sandbox_ids.json'
@@ -8,16 +8,11 @@ PAGE_SLUGS_FNAME = f'{DATA_FOLDER_NAME}/page_slugs.json'
 
 
 def load_tracked_page_mappings():
-    return load_json(f"{SANDBOX_IDS_FNAME}")
+    return load_json_failsafe(f"{SANDBOX_IDS_FNAME}")
 
 
 def load_all_page_mappings():
-    try:
-        data = load_json(f"{PAGE_MAPPINGS_FNAME}")
-    except FileNotFoundError:
-        data = {}
-
-    return data
+    return load_json_failsafe(f"{PAGE_MAPPINGS_FNAME}")
 
 
 def populate_slugs(data):

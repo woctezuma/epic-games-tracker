@@ -7,6 +7,14 @@ def load_json(fname):
     return data
 
 
+def load_json_failsafe(fname):
+    try:
+        data = load_json(fname)
+    except FileNotFoundError:
+        data = {}
+    return data
+
+
 def save_json(data, fname, prettify=False, indent=4):
     with open(fname, 'w', encoding='utf8') as f:
         if prettify:
