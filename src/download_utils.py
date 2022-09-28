@@ -40,7 +40,7 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
     return page_mappings
 
 
-def filter_page_mappings_based_on_achievement_support(page_mappings, known_support=None):
+def download_achievement_support_to_filter_page_mappings(page_mappings, known_support=None):
     if known_support is None:
         known_support = dict()
 
