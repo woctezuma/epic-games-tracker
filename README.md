@@ -23,6 +23,8 @@ python fetch_mappings_for_today.py
 python fetch_data_for_today.py
 ```
 
+Alternatively, schedule `update.bat` for daily runs. 
+
 ## Results
 
 Visit [the website][tracker-website].
