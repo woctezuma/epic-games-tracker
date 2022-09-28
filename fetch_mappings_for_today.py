@@ -17,11 +17,8 @@ def main():
     else:
         page_slugs = load_json(PAGE_SLUGS_FNAME)
 
-    if force_update or not Path(PAGE_MAPPINGS_FNAME).exists():
-        page_mappings = download_page_mappings(page_slugs, known_page_mappings=load_all_page_mappings())
-        save_json(sort_dict_by_key(page_mappings), PAGE_MAPPINGS_FNAME, prettify=True)
-    else:
-        page_mappings = load_json(PAGE_MAPPINGS_FNAME)
+    page_mappings = download_page_mappings(page_slugs, known_page_mappings=load_all_page_mappings())
+    save_json(sort_dict_by_key(page_mappings), PAGE_MAPPINGS_FNAME, prettify=True)
 
     page_mappings = {k: v for k, v in page_mappings.items() if k in page_slugs}
     sandbox_ids_dict = filter_page_mappings_based_on_achievement_support(page_mappings,
