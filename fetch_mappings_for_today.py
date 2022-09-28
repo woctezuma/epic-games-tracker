@@ -21,8 +21,8 @@ def main():
     page_mappings = download_page_mappings(page_slugs, known_page_mappings=load_all_page_mappings())
     save_json(sort_dict_by_key(page_mappings), PAGE_MAPPINGS_FNAME, prettify=True)
 
-    page_mappings = filter_page_mappings_based_on_slugs(page_mappings, page_slugs)
-    sandbox_ids_dict = download_achievement_support_to_filter_page_mappings(page_mappings,
+    page_mappings_of_interest = filter_page_mappings_based_on_slugs(page_mappings, page_slugs)
+    sandbox_ids_dict = download_achievement_support_to_filter_page_mappings(page_mappings_of_interest,
                                                                             known_support=load_tracked_page_mappings())
     save_json(sort_dict_by_key(sandbox_ids_dict), SANDBOX_IDS_FNAME, prettify=True)
 
