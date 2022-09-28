@@ -4,8 +4,10 @@ python fetch_mappings_for_today.py
 chcp 65001>nul
 
 git add data/page_mappings.json
-git add data/sandbox_ids.json
 git commit -m "💼 Update page mappings"
+
+git add data/sandbox_ids.json
+git commit -m "Data: updated sandbox IDs"
 
 python fetch_data_for_today.py
 
