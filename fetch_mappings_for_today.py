@@ -5,10 +5,7 @@ from src.data_utils import load_tracked_page_mappings, load_all_page_mappings
 from src.download_utils import download_page_slugs, download_page_mappings
 from src.download_utils import filter_page_mappings_based_on_achievement_support
 from src.json_utils import save_json, load_json
-
-
-def sort_dict(d):
-    return dict(sorted(d.items(), key=lambda x: x[0]))
+from src.utils import sort_dict
 
 
 def main():
