@@ -17,6 +17,9 @@ pip install -r requirements.txt
 
 Run every day:
 ```bash
+python fetch_mappings_for_today.py
+```
+```bash
 python fetch_data_for_today.py
 ```
 
