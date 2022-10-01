@@ -7,7 +7,7 @@ git add data/page_mappings.json
 git commit -m "💼 Update page mappings"
 
 git add data/sandbox_ids.json
-git commit -m "Data: updated sandbox IDs"
+git commit -m "📌 Update tracked sandbox IDs"
 
 python fetch_data_for_today.py
 
