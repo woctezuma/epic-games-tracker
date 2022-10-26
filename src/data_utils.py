@@ -5,6 +5,7 @@ DATA_FOLDER_NAME = 'data'
 SANDBOX_IDS_FNAME = f'{DATA_FOLDER_NAME}/sandbox_ids.json'
 PAGE_MAPPINGS_FNAME = f'{DATA_FOLDER_NAME}/page_mappings.json'
 PAGE_SLUGS_FNAME = f'{DATA_FOLDER_NAME}/page_slugs.json'
+DISCORD_WEBHOOK_FNAME = f'{DATA_FOLDER_NAME}/discord_webhook.json'
 
 
 def load_tracked_page_mappings():
@@ -13,6 +14,10 @@ def load_tracked_page_mappings():
 
 def load_all_page_mappings():
     return load_json_failsafe(f"{PAGE_MAPPINGS_FNAME}")
+
+
+def load_discord_webhook():
+    return load_json_failsafe(f"{DISCORD_WEBHOOK_FNAME}")
 
 
 def populate_slugs(data):
