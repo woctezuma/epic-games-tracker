@@ -3,6 +3,7 @@ from src.time_utils import get_current_date_as_str
 
 HEADERS = ["Game Slug"] + GAME_RATING_HEADERS + ACHIEVEMENT_HEADERS
 ENTRY_FIELDS = ['slug'] + GAME_RATING_FIELDS + ACHIEVEMENT_FIELDS
+PLACE_HOLDER = '---'
 
 
 def get_timestamp_line():
@@ -22,7 +23,7 @@ def get_headers_line():
 
 
 def get_separator_line():
-    place_holder = '---'
+    place_holder = PLACE_HOLDER
     num_headers = len(HEADERS)
     return to_table_row(place_holder, [place_holder] * num_headers)
 
