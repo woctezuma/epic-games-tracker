@@ -13,8 +13,12 @@ def compute_max_unlock_percentage(achievement_data):
     return rarity
 
 
+def get_main_achievement_set(achievement_data):
+    return achievement_data["achievementSets"][0]
+
+
 def summarize_achievement(achievement_data):
-    achievement_summary = achievement_data["achievementSets"][0]
+    achievement_summary = get_main_achievement_set(achievement_data)
     achievement_summary['maxRarity'] = compute_max_unlock_percentage(achievement_data)
 
     return achievement_summary
