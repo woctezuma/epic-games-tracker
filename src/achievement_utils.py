@@ -17,8 +17,14 @@ def list_base_achievement_sets(achievement_data):
     return [e for e in achievement_data["achievementSets"] if e['isBase']]
 
 
+def sort_achievement_sets_by_num_players(achievement_sets):
+    return sorted(achievement_sets, key=lambda x: int(x['numProgressed']), reverse=True)
+
+
 def get_main_achievement_set(achievement_data):
     base_achievement_sets = list_base_achievement_sets(achievement_data)
+    if len(base_achievement_sets) > 1:
+        base_achievement_sets = sort_achievement_sets_by_num_players(base_achievement_sets)
     return base_achievement_sets[0]
 
 
