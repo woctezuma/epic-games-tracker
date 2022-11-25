@@ -13,8 +13,13 @@ def compute_max_unlock_percentage(achievement_data):
     return rarity
 
 
+def list_base_achievement_sets(achievement_data):
+    return [e for e in achievement_data["achievementSets"] if e['isBase']]
+
+
 def get_main_achievement_set(achievement_data):
-    return achievement_data["achievementSets"][0]
+    base_achievement_sets = list_base_achievement_sets(achievement_data)
+    return base_achievement_sets[0]
 
 
 def summarize_achievement(achievement_data):
