@@ -23,6 +23,8 @@ def sort_achievement_sets_by_num_players(achievement_sets):
 
 def get_main_achievement_set(achievement_data):
     base_achievement_sets = list_base_achievement_sets(achievement_data)
+    if len(base_achievement_sets) == 0:
+        base_achievement_sets = achievement_data["achievementSets"]
     if len(base_achievement_sets) > 1:
         base_achievement_sets = sort_achievement_sets_by_num_players(base_achievement_sets)
     return base_achievement_sets[0]
