@@ -2,7 +2,7 @@ import copy
 import cloudscraper
 
 from src.achievement_support_utils import supports_achievements
-from src.page_mapping_utils import get_sandbox_id
+from src.page_mapping_utils import get_sandbox_id, get_updated_date
 from src.query_achievement_support import to_achievement_support
 from src.query_page_mapping import to_page_mapping
 from src.query_store_data import to_store_data
@@ -50,6 +50,24 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
                 page_mappings[slug] = get_sandbox_id(mapping_data)
 
     return page_mappings
+
+
+def download_updated_dates(page_slugs, known_updated_dates=None):
+    if known_updated_dates is None:
+        known_updated_dates = dict()
+
+    updated_dates = known_updated_dates
+    num_slugs = len(page_slugs)
+
+    for i, slug in enumerate(sorted(page_slugs), start=1):
+        print(f'[{i}/{num_slugs}] {slug}')
+
+        if slug not in updated_dates:
+            mapping_data = to_page_mapping(slug)
+            if mapping_data is not None:
+                updated_dates[slug] = get_updated_date(mapping_data)
+
+    return updated_dates
 
 
 def download_achievement_support_to_filter_page_mappings(
