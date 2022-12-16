@@ -7,7 +7,7 @@ def get_params_to_query_page_mapping(page_slug):
     query_str = "{StorePageMapping {mapping"
     query_str += f'(pageSlug: "{page_slug}") '
     query_str += "{"
-    query_str += "sandboxId"
+    query_str += "sandboxId updatedDate"
     query_str += "}}}"
 
     params = {"query": query_str}
