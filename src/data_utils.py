@@ -4,6 +4,7 @@ from src.json_utils import load_json_failsafe
 DATA_FOLDER_NAME = 'data'
 SANDBOX_IDS_FNAME = f'{DATA_FOLDER_NAME}/sandbox_ids.json'
 PAGE_MAPPINGS_FNAME = f'{DATA_FOLDER_NAME}/page_mappings.json'
+UPDATED_DATES_FNAME = f'{DATA_FOLDER_NAME}/updated_dates.json'
 PAGE_SLUGS_FNAME = f'{DATA_FOLDER_NAME}/page_slugs.json'
 DISCORD_WEBHOOK_FNAME = f'{DATA_FOLDER_NAME}/discord_webhook.json'
 
@@ -14,6 +15,10 @@ def load_tracked_page_mappings():
 
 def load_all_page_mappings():
     return load_json_failsafe(f"{PAGE_MAPPINGS_FNAME}")
+
+
+def load_all_updated_dates():
+    return load_json_failsafe(f"{UPDATED_DATES_FNAME}")
 
 
 def load_discord_webhook():
