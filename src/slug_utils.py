@@ -1,4 +1,5 @@
 DUMMY_SUFFIX = '/home'
+DUMMY_PAGE_SLUG_SUFFIXES = ["-bundle", "--premium-edition"]
 
 
 def get_offer_slug(store_element):
@@ -11,9 +12,19 @@ def get_offer_slug(store_element):
     return offer_slug
 
 
+def is_a_dummy_mapping(mapping):
+    return any(mapping["pageSlug"].endswith(s) for s in DUMMY_PAGE_SLUG_SUFFIXES)
+
+
+def filter_out_dummy_mappings(mappings):
+    return [e for e in mappings if not is_a_dummy_mapping(e)]
+
+
 def get_namespace_slug(store_element):
     mappings = store_element.get("catalogNs").get("mappings")
     if mappings is not None and len(mappings) > 0:
+        if len(mappings) > 1:
+            mappings = filter_out_dummy_mappings(mappings)
         namespace_slug = mappings[0]["pageSlug"]
     else:
         namespace_slug = None
