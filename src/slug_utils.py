@@ -11,6 +11,16 @@ def get_offer_slug(store_element):
     return offer_slug
 
 
+def get_namespace_slug(store_element):
+    mappings = store_element.get("catalogNs").get("mappings")
+    if mappings is not None and len(mappings) > 0:
+        namespace_slug = mappings[0]["pageSlug"]
+    else:
+        namespace_slug = None
+
+    return namespace_slug
+
+
 def get_product_slug(store_element):
     product_slug = store_element["productSlug"]
     if product_slug is not None:
@@ -24,11 +34,14 @@ def get_url_slug(store_element):
 
 def to_slug(store_element):
     offer_slug = get_offer_slug(store_element)
+    namespace_slug = get_namespace_slug(store_element)
     product_slug = get_product_slug(store_element)
     url_slug = get_url_slug(store_element)
 
     if offer_slug is not None:
         slug = offer_slug
+    elif namespace_slug is not None:
+        slug = namespace_slug
     elif product_slug is not None:
         slug = product_slug
     else:
