@@ -9,7 +9,7 @@ def get_params_to_query_store_data(cursor, step, include_dlc=False):
     query_str = "{Catalog {searchStore"
     query_str += f'({category_str}start: {cursor}, count: {step}) '
     query_str += "{"
-    query_str += 'paging {total} elements {offerMappings {pageSlug} catalogNs {mappings(pageType: "productHome") {pageSlug}} productSlug urlSlug}'
+    query_str += 'paging {total} elements {offerMappings {pageSlug} catalogNs {mappings(pageType: "productHome") {pageSlug}} productSlug customAttributes {key value} urlSlug}'
     query_str += "}}}"
 
     params = {"query": query_str}
