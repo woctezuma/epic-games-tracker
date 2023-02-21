@@ -24,7 +24,10 @@ def populate_slugs(data):
     sandbox_ids_dict = load_tracked_page_mappings()
 
     for slug, sandbox_id in sandbox_ids_dict.items():
-        data[sandbox_id]["slug"] = slug
+        try:
+            data[sandbox_id]["slug"] = slug
+        except KeyError:
+            continue
 
     return data
 
