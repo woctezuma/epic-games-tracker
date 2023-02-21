@@ -13,6 +13,8 @@ git commit -m "📌 Update tracked sandbox IDs"
 
 python fetch_data_for_today.py
 
+python monitor_fixed_trophies.py
+
 git add data/20*/*
 git commit -m "🗃️ Add JSON data snapshot"
 
