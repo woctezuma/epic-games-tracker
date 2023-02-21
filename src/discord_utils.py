@@ -57,3 +57,13 @@ def post_git_diff_to_discord_using_keyword(fname, webhook_keyword):
     header = to_discord_header(webhook_keyword)
     webhook_id = get_webhook_id(webhook_keyword)
     return post_git_diff_to_discord(fname, header, webhook_id=webhook_id)
+
+
+def post_slugs_to_discord(game_slugs, webhook_keyword):
+    header = to_discord_header(webhook_keyword)
+    webhook_id = get_webhook_id(webhook_keyword)
+
+    message = format_discord_message(game_slugs, header=header)
+    response = post_message_to_discord(message, webhook_id=webhook_id)
+
+    return response
