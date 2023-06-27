@@ -41,8 +41,12 @@ def extract_games(lines):
     return games
 
 
+def list_new_games(added_games, deleted_games):
+    games = set(added_games).difference(deleted_games)
+    return list(games)
+
+
 def extract_new_games(stdout):
     added_games = extract_games(filter_additions(stdout))
     deleted_games = extract_games(filter_deletions(stdout))
-    games = set(added_games).difference(deleted_games)
-    return list(games)
+    return list_new_games(added_games, deleted_games)
