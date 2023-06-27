@@ -1,3 +1,6 @@
+from src.fields import ACHIEVEMENT_FIELDS
+
+
 def list_all_unlock_percentages(achievement_data):
     return [e['achievement']['rarity']['percent'] for e in achievement_data['achievements']]
 
@@ -39,3 +42,7 @@ def summarize_achievement(achievement_data):
     achievement_summary['maxRarity'] = compute_max_unlock_percentage(achievement_data)
 
     return achievement_summary
+
+
+def create_dummy_achievement_summary():
+    return {s: None for s in ACHIEVEMENT_FIELDS}
