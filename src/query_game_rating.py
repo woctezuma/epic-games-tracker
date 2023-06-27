@@ -1,13 +1,11 @@
 from src.api import send_post_request_to_api
-from src.query_utils import format_params_for_query_str
+from src.query_utils import get_query_str_for_ratings
 
 
 def get_params_to_query_game_rating(sandbox_id):
-    query_str = "{RatingsPolls {getProductResult"
-    query_str += format_params_for_query_str(sandbox_id)
-    query_str += "{"
-    query_str += "averageRating pollResult {id total}"
-    query_str += "}}}"
+    query_str = "{"
+    query_str += get_query_str_for_ratings(sandbox_id)
+    query_str += "}"
 
     params = {"query": query_str}
 
