@@ -1,3 +1,5 @@
+import copy
+
 from src.achievement_support_utils import supports_achievements
 from src.page_mapping_utils import get_sandbox_id
 from src.query_achievement_support import to_achievement_support
@@ -26,7 +28,7 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
     if known_page_mappings is None:
         known_page_mappings = dict()
 
-    page_mappings = known_page_mappings
+    page_mappings = copy.deepcopy(known_page_mappings)
     num_slugs = len(page_slugs)
 
     for i, slug in enumerate(sorted(page_slugs), start=1):
@@ -44,7 +46,7 @@ def download_achievement_support_to_filter_page_mappings(page_mappings, known_su
     if known_support is None:
         known_support = dict()
 
-    support = known_support
+    support = copy.deepcopy(known_support)
     num_slugs = len(page_mappings)
 
     achievement_support_dict = dict()
