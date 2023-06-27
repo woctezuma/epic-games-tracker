@@ -1,12 +1,13 @@
 from src.api import send_post_request_to_api
-from src.query_utils import format_params_for_query_str
+from src.query_utils import get_query_str_for_achievements
+
 
 def get_params_to_query_achievement_support(sandbox_id):
-    query_str = "{Achievement {productAchievementsRecordBySandbox"
-    query_str += format_params_for_query_str(sandbox_id)
-    query_str += "{"
-    query_str += "totalAchievements"
-    query_str += "}}}"
+    query_str = "{"
+    query_str += get_query_str_for_achievements(sandbox_id,
+                                                include_num_achievements=True,
+                                                include_achievement_details=False)
+    query_str += "}"
 
     params = {"query": query_str}
 
