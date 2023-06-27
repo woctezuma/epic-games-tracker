@@ -23,7 +23,7 @@ def fetch_data_for_single_id(sandbox_id):
     for s in RAW_RATING_FIELDS:
         try:
             data[s] = game_rating[s]
-        except TypeError:
+        except (TypeError, KeyError) as e:
             data[s] = None
 
     if is_buggy_achievement_data(achievement):
