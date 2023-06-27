@@ -15,6 +15,16 @@ def fetch_data_for_single_id(sandbox_id):
 
     achievement, game_rating = to_game_data(sandbox_id)
 
+    if is_buggy_achievement_data(achievement):
+        print(f'Try again {sandbox_id} in {COOLDOWN_DURATION_IN_SECONDS}s.')
+        time.sleep(COOLDOWN_DURATION_IN_SECONDS)
+        achievement = to_achievement(sandbox_id)
+
+    achievement_summary = summarize_achievement(achievement)
+
+    for s in ACHIEVEMENT_FIELDS:
+        data[s] = achievement_summary[s]
+
     if is_buggy_game_rating_data(game_rating):
         print(f'Try again {sandbox_id} in {COOLDOWN_DURATION_IN_SECONDS}s.')
         time.sleep(COOLDOWN_DURATION_IN_SECONDS)
@@ -25,16 +35,6 @@ def fetch_data_for_single_id(sandbox_id):
             data[s] = game_rating[s]
         except (TypeError, KeyError) as e:
             data[s] = None
-
-    if is_buggy_achievement_data(achievement):
-        print(f'Try again {sandbox_id} in {COOLDOWN_DURATION_IN_SECONDS}s.')
-        time.sleep(COOLDOWN_DURATION_IN_SECONDS)
-        achievement = to_achievement(sandbox_id)
-
-    achievement_summary = summarize_achievement(achievement)
-
-    for s in ACHIEVEMENT_FIELDS:
-        data[s] = achievement_summary[s]
 
     return data
 
