@@ -3,12 +3,14 @@ def format_params_for_query_str(sandbox_id):
     return params_str
 
 
-def get_query_str_for_achievements(sandbox_id):
+def get_query_str_for_achievements(sandbox_id, include_num_achievements=True, include_achievement_details=True):
     query_str = "Achievement {productAchievementsRecordBySandbox"
     query_str += format_params_for_query_str(sandbox_id)
     query_str += "{"
-    query_str += "totalAchievements "
-    query_str += "achievementSets {isBase numProgressed numCompleted} achievements {achievement {rarity {percent} } }"
+    if include_num_achievements:
+        query_str += "totalAchievements "
+    if include_achievement_details:
+        query_str += "achievementSets {isBase numProgressed numCompleted} achievements {achievement {rarity {percent}}}"
     query_str += "}} "
 
     return query_str
