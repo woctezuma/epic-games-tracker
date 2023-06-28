@@ -1,32 +1,35 @@
-from datetime import timedelta
-
 from src.achievement_fixes import list_slugs_with_fixed_achievements
-from src.json_utils import load_json, load_json_failsafe
-from src.time_utils import get_fname_for_specific_day, get_current_date
+from src.json_utils import load_json
+from src.time_utils import list_data_file_names
 
 
-def display_results(date, game_slugs):
-    print(date.strftime('%Y-%m-%d'))
-    print('- ' + '\n- '.join(game_slugs))
+def display_results(date_str, game_slugs):
+    print(date_str)
+    print('- ' + '\n- '.join(sorted(game_slugs)))
     print()
 
 
+def extract_date_from_fname(fname):
+    return fname.removeprefix('data/').removesuffix('.json').replace('/', '-')
+
+
 def main():
-    date = get_current_date()
+    all_fnames = list_data_file_names()
 
-    while True:
-        data_today = load_json(fname=get_fname_for_specific_day(date))
-        data_yesterday = load_json_failsafe(fname=get_fname_for_specific_day(date - timedelta(days=1)))
+    current_fname = None
+    for previous_fname in reversed(all_fnames):
 
-        if len(data_yesterday) == 0:
-            break
+        if current_fname is not None:
+            data_today = load_json(fname=current_fname)
+            data_yesterday = load_json(fname=previous_fname)
 
-        game_slugs = list_slugs_with_fixed_achievements(data_yesterday, data_today)
+            game_slugs = list_slugs_with_fixed_achievements(data_yesterday, data_today)
 
-        if len(game_slugs) > 0:
-            display_results(date, game_slugs)
+            if len(game_slugs) > 0:
+                date_str = extract_date_from_fname(current_fname)
+                display_results(date_str, game_slugs)
 
-        date -= timedelta(days=1)
+        current_fname = previous_fname
 
 
 if __name__ == '__main__':
