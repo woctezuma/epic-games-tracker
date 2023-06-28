@@ -2,6 +2,11 @@ from src.achievement_fixes import list_slugs_with_fixed_achievements
 from src.json_utils import load_json
 from src.time_utils import list_data_file_names
 
+FNAME_PREFIX = 'data/'
+FNAME_SUFFIX = '.json'
+FOLDER_SEPARATOR = "/"
+DATE_SEPARATOR = "-"
+
 
 def display_results(date_str, game_slugs):
     print(date_str)
@@ -10,7 +15,7 @@ def display_results(date_str, game_slugs):
 
 
 def extract_date_from_fname(fname):
-    return fname.removeprefix('data/').removesuffix('.json').replace('/', '-')
+    return fname.removeprefix(FNAME_PREFIX).removesuffix(FNAME_SUFFIX).replace(FOLDER_SEPARATOR, DATE_SEPARATOR)
 
 
 def main():
