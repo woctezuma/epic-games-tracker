@@ -4,7 +4,7 @@ from src.data_utils import PAGE_SLUGS_FNAME
 from src.discord_utils import post_slugs_to_discord
 from src.download_utils import download_page_slugs
 from src.json_utils import save_json, load_json
-from src.webhook_utils import WEBHOOK_KEYWORD_NEW, WEBHOOK_KEYWORD_TROPHY
+from src.webhook_utils import WEBHOOK_KEYWORD_NEW, WEBHOOK_KEYWORD_TROPHY, WEBHOOK_KEYWORD_LATE_TROPHY
 from src.workflow_utils import update_tracked_page_mappings, update_all_page_mappings
 
 
@@ -28,7 +28,7 @@ def main():
     post_slugs_to_discord(new_tracked_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_TROPHY)
     # Second, for all the page slugs. This is less rewarding: there are many checks... and very few new tracked slugs!
     new_tracked_game_slugs = update_tracked_page_mappings(page_slugs)
-    post_slugs_to_discord(new_tracked_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_TROPHY)
+    post_slugs_to_discord(new_tracked_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_LATE_TROPHY)
 
     return
 
