@@ -10,7 +10,7 @@ def fetch_data_for_single_id(sandbox_id):
 
     achievement, game_rating = to_game_data(sandbox_id)
 
-    if is_buggy_achievement_data(achievement):
+    if achievement is None or is_buggy_achievement_data(achievement):
         print(f'[ERROR] achievement data cannot be found for {sandbox_id}.')
         achievement_summary = create_dummy_dictionary(ACHIEVEMENT_FIELDS)
     else:
