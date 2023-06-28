@@ -5,13 +5,14 @@ from src.retry_utils import is_buggy_achievement_data
 from src.utils import create_dummy_dictionary
 
 
-def fetch_data_for_single_id(sandbox_id):
+def fetch_data_for_single_id(sandbox_id, verbose=True):
     data = dict()
 
     achievement, game_rating = to_game_data(sandbox_id)
 
     if achievement is None or is_buggy_achievement_data(achievement):
-        print(f'[achievement] missing data for {sandbox_id}: {achievement}.')
+        if verbose:
+            print(f'[achievement] missing data for {sandbox_id}: {achievement}.')
         achievement_summary = create_dummy_dictionary(ACHIEVEMENT_FIELDS)
     else:
         achievement_summary = summarize_achievement(achievement)
@@ -20,7 +21,8 @@ def fetch_data_for_single_id(sandbox_id):
         data[s] = achievement_summary[s]
 
     if game_rating is None:
-        print(f'[rating] missing data for {sandbox_id}.')
+        if verbose:
+            print(f'[rating] missing data for {sandbox_id}.')
         game_rating = create_dummy_dictionary(RAW_RATING_FIELDS)
 
     for s in RAW_RATING_FIELDS:
@@ -36,6 +38,6 @@ def fetch_data_for_several_ids(sandbox_ids, verbose=True):
     for i, sandbox_id in enumerate(sandbox_ids, start=1):
         if verbose:
             print(f"[{i:3}/{num_sandbox_ids}] {sandbox_id}")
-        data[sandbox_id] = fetch_data_for_single_id(sandbox_id)
+        data[sandbox_id] = fetch_data_for_single_id(sandbox_id, verbose=verbose)
 
     return data
