@@ -44,5 +44,9 @@ def summarize_achievement(achievement_data):
     return achievement_summary
 
 
+def create_dummy_dictionary(field):
+    return {s: None for s in field}
+
+
 def create_dummy_achievement_summary():
-    return {s: None for s in ACHIEVEMENT_FIELDS}
+    return create_dummy_dictionary(ACHIEVEMENT_FIELDS)
