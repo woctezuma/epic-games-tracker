@@ -1,7 +1,7 @@
 from src.achievement_utils import summarize_achievement
 from src.fields import RAW_RATING_FIELDS, ACHIEVEMENT_FIELDS
 from src.query_game_data import to_game_data
-from src.retry_utils import is_buggy_achievement_data, is_buggy_game_rating_data
+from src.retry_utils import is_buggy_achievement_data
 from src.utils import create_dummy_dictionary
 
 
@@ -19,7 +19,7 @@ def fetch_data_for_single_id(sandbox_id):
     for s in ACHIEVEMENT_FIELDS:
         data[s] = achievement_summary[s]
 
-    if is_buggy_game_rating_data(game_rating):
+    if game_rating is None:
         game_rating = create_dummy_dictionary(RAW_RATING_FIELDS)
 
     for s in RAW_RATING_FIELDS:
