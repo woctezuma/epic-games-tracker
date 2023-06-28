@@ -1,3 +1,4 @@
+import logging
 from pathlib import Path
 
 from src.data_filters import hide_games_with_buggy_achievements
@@ -11,6 +12,8 @@ from src.time_utils import get_fname_for_today
 
 
 def main():
+    logging.getLogger('backoff').addHandler(logging.StreamHandler())
+
     output_fname = get_fname_for_today()
     Path(output_fname).parent.mkdir(parents=True, exist_ok=True)
 

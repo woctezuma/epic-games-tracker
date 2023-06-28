@@ -1,3 +1,4 @@
+import logging
 from pathlib import Path
 
 from src.data_utils import PAGE_SLUGS_FNAME
@@ -9,6 +10,8 @@ from src.workflow_utils import update_tracked_page_mappings, update_all_page_map
 
 
 def main():
+    logging.getLogger('backoff').addHandler(logging.StreamHandler())
+
     force_update = True
 
     if force_update or not Path(PAGE_SLUGS_FNAME).exists():
