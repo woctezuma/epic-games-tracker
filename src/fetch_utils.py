@@ -1,6 +1,6 @@
 import time
 
-from src.achievement_utils import summarize_achievement, create_dummy_achievement_summary
+from src.achievement_utils import summarize_achievement, create_dummy_dictionary
 from src.fields import RAW_RATING_FIELDS, ACHIEVEMENT_FIELDS
 from src.query_achievement import to_achievement
 from src.query_game_data import to_game_data
@@ -26,7 +26,7 @@ def fetch_data_for_single_id(sandbox_id):
         achievement_summary = summarize_achievement(achievement)
     except IndexError:
         print(f'[ERROR] achievement data cannot be found for {sandbox_id}.')
-        achievement_summary = create_dummy_achievement_summary()
+        achievement_summary = create_dummy_dictionary(ACHIEVEMENT_FIELDS)
 
     for s in ACHIEVEMENT_FIELDS:
         data[s] = achievement_summary[s]

@@ -1,6 +1,3 @@
-from src.fields import ACHIEVEMENT_FIELDS
-
-
 def list_all_unlock_percentages(achievement_data):
     return [e['achievement']['rarity']['percent'] for e in achievement_data['achievements']]
 
@@ -46,7 +43,3 @@ def summarize_achievement(achievement_data):
 
 def create_dummy_dictionary(field):
     return {s: None for s in field}
-
-
-def create_dummy_achievement_summary():
-    return create_dummy_dictionary(ACHIEVEMENT_FIELDS)
