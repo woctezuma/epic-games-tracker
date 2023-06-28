@@ -4,8 +4,12 @@ GRAPHQL_API_URL = "https://graphql.epicgames.com/graphql"
 
 
 def send_post_request_to_api(json_data, verbose=True):
-    r = requests.post(GRAPHQL_API_URL, json=json_data)
+    r = to_response(json_data)
     return to_data(r, verbose=verbose)
+
+
+def to_response(json_data):
+    return requests.post(GRAPHQL_API_URL, json=json_data)
 
 
 def to_data(response, verbose=True):
