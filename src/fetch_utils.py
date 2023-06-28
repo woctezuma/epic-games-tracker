@@ -19,6 +19,8 @@ def fetch_data_for_single_id(sandbox_id):
         print(f'[achievement] Try again {sandbox_id} in {COOLDOWN_DURATION_IN_SECONDS}s.')
         time.sleep(COOLDOWN_DURATION_IN_SECONDS)
         achievement = to_achievement(sandbox_id)
+        if not is_buggy_achievement_data(achievement):
+            print(f'[SUCCESS] achievement data has been found for {sandbox_id}.')
 
     try:
         achievement_summary = summarize_achievement(achievement)
@@ -33,6 +35,8 @@ def fetch_data_for_single_id(sandbox_id):
         print(f'[rating] Try again {sandbox_id} in {COOLDOWN_DURATION_IN_SECONDS}s.')
         time.sleep(COOLDOWN_DURATION_IN_SECONDS)
         game_rating = to_game_rating(sandbox_id)
+        if not is_buggy_game_rating_data(game_rating):
+            print(f'[SUCCESS] rating data has been found for {sandbox_id}.')
 
     for s in RAW_RATING_FIELDS:
         try:
