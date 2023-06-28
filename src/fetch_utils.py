@@ -1,11 +1,12 @@
 import time
 
-from src.achievement_utils import summarize_achievement, create_dummy_dictionary
+from src.achievement_utils import summarize_achievement
 from src.fields import RAW_RATING_FIELDS, ACHIEVEMENT_FIELDS
 from src.query_achievement import to_achievement
 from src.query_game_data import to_game_data
 from src.query_game_rating import to_game_rating
 from src.retry_utils import is_buggy_achievement_data, is_buggy_game_rating_data
+from src.utils import create_dummy_dictionary
 
 COOLDOWN_DURATION_IN_SECONDS = 2
 

@@ -39,7 +39,3 @@ def summarize_achievement(achievement_data):
     achievement_summary['maxRarity'] = compute_max_unlock_percentage(achievement_data)
 
     return achievement_summary
-
-
-def create_dummy_dictionary(field):
-    return {s: None for s in field}
