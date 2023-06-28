@@ -11,7 +11,7 @@ def fetch_data_for_single_id(sandbox_id):
     achievement, game_rating = to_game_data(sandbox_id)
 
     if achievement is None or is_buggy_achievement_data(achievement):
-        print(f'[ERROR] achievement data cannot be found for {sandbox_id}.')
+        print(f'[achievement] missing data for {sandbox_id}: {achievement}.')
         achievement_summary = create_dummy_dictionary(ACHIEVEMENT_FIELDS)
     else:
         achievement_summary = summarize_achievement(achievement)
@@ -20,6 +20,7 @@ def fetch_data_for_single_id(sandbox_id):
         data[s] = achievement_summary[s]
 
     if game_rating is None:
+        print(f'[rating] missing data for {sandbox_id}.')
         game_rating = create_dummy_dictionary(RAW_RATING_FIELDS)
 
     for s in RAW_RATING_FIELDS:
