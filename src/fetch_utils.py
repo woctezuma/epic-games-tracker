@@ -1,7 +1,7 @@
 from src.achievement_utils import summarize_achievement
 from src.fields import RAW_RATING_FIELDS, ACHIEVEMENT_FIELDS
 from src.query_game_data import to_game_data, could_arise_from_faulty_request
-from src.retry_utils import has_no_achievement
+from src.retry_utils import has_no_achievement, has_no_rating
 from src.utils import create_dummy_dictionary
 
 
@@ -25,7 +25,7 @@ def fetch_data_for_single_id(sandbox_id, verbose=True):
                 print(f'[achievement] missing field {s} for {sandbox_id}: {achievement} -> {achievement_summary}.')
             data[s] = None
 
-    if could_arise_from_faulty_request(game_rating):
+    if could_arise_from_faulty_request(game_rating) or has_no_rating(game_rating):
         if verbose:
             print(f'[rating] missing data for {sandbox_id}.')
         game_rating = create_dummy_dictionary(RAW_RATING_FIELDS)
