@@ -23,7 +23,17 @@ python fetch_mappings_for_today.py
 python fetch_data_for_today.py
 ```
 
-Alternatively, schedule `update.bat` for daily runs. 
+Alternatively:
+
+-   either run every day [`epic_games_tracker.ipynb`][colab-notebook]
+[![Open In Colab][colab-badge]][colab-notebook]
+
+-   or schedule `update.bat` for daily runs.
+
+To have a retrospective look at days on which some achievements were fixed, run:
+```bash
+python list_all_fixed_trophies.py
+```
 
 ## Results
 
@@ -40,6 +50,8 @@ Visit [the website][tracker-website].
 
 [img-cover]: <https://github.com/woctezuma/epic-games-tracker/wiki/img/cover.png>
 [python-download-url]: <https://www.python.org/downloads/>
+[colab-notebook]: <https://colab.research.google.com/github/woctezuma/epic-games-tracker/blob/colab/epic_games_tracker.ipynb>
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 [tracker-website]: <https://woctezuma.github.io/epic-games-tracker/>
 [madjoki-egs-ratings]: <https://github.com/nikop/epic-games-ratings>
 [epic-games-ratings]: <https://github.com/woctezuma/epic-games-ratings>
