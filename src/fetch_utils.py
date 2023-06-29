@@ -18,12 +18,7 @@ def fetch_data_for_single_id(sandbox_id, verbose=True):
         achievement_summary = summarize_achievement(achievement)
 
     for s in ACHIEVEMENT_FIELDS:
-        try:
-            data[s] = achievement_summary[s]
-        except KeyError:
-            if verbose:
-                print(f'[achievement] missing field {s} for {sandbox_id}: {achievement} -> {achievement_summary}.')
-            data[s] = None
+        data[s] = achievement_summary[s]
 
     if could_arise_from_faulty_request(game_rating) or has_no_rating(game_rating):
         if verbose:
@@ -31,12 +26,7 @@ def fetch_data_for_single_id(sandbox_id, verbose=True):
         game_rating = create_dummy_dictionary(RAW_RATING_FIELDS)
 
     for s in RAW_RATING_FIELDS:
-        try:
-            data[s] = game_rating[s]
-        except KeyError:
-            if verbose:
-                print(f'[rating] missing field {s} for {sandbox_id}: {game_rating}.')
-            data[s] = None
+        data[s] = game_rating[s]
 
     return data
 
