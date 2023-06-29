@@ -6,7 +6,7 @@ def has_buggy_achievements(achievement):
     return achievement['achievements'] is None
 
 
-def is_buggy_achievement_data(achievement):
+def has_no_achievement(achievement):
     return has_buggy_achievement_sets(achievement) or has_buggy_achievements(achievement)
 
 
