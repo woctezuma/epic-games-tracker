@@ -1,8 +1,8 @@
 {
   "89da53d6472d4b8f864f68e3bbd999a3": {
-    "numProgressed": 2,
+    "numProgressed": 3,
     "numCompleted": 0,
-    "maxRarity": 150,
+    "maxRarity": 100,
     "averageRating": null,
     "pollResult": []
   },
@@ -14,14 +14,14 @@
     "pollResult": []
   },
   "cc1d104767dc4a2fa22a44d487e2db64": {
-    "numProgressed": 4451,
+    "numProgressed": 4455,
     "numCompleted": 1,
     "maxRarity": 92,
     "averageRating": 4.62,
     "pollResult": []
   },
   "1b737464d3c441f8956315433be02d3b": {
-    "numProgressed": 17097,
+    "numProgressed": 17141,
     "numCompleted": 34,
     "maxRarity": 40,
     "averageRating": 4.2,
@@ -68,7 +68,7 @@
     "pollResult": []
   },
   "64ae027afbd145d9b6e62bd96967fe66": {
-    "numProgressed": 11872,
+    "numProgressed": 11880,
     "numCompleted": 36,
     "maxRarity": 92,
     "averageRating": 4.73,
@@ -90,11 +90,11 @@
         "total": 27
       },
       {
-        "id": 12,
-        "total": 24
+        "id": 37,
+        "total": 25
       },
       {
-        "id": 37,
+        "id": 12,
         "total": 24
       },
       {
@@ -115,8 +115,8 @@
     "pollResult": []
   },
   "9d2f484bbec64aa8ad234b3199dcaf1c": {
-    "numProgressed": 1526315,
-    "numCompleted": 638,
+    "numProgressed": 1526418,
+    "numCompleted": 639,
     "maxRarity": 10,
     "averageRating": 4.41,
     "pollResult": []
@@ -136,8 +136,8 @@
     "pollResult": null
   },
   "a3dd9f3da8ec49c7b25dec42cce2ec46": {
-    "numProgressed": 63890,
-    "numCompleted": 587,
+    "numProgressed": 63950,
+    "numCompleted": 588,
     "maxRarity": 22,
     "averageRating": 3.42,
     "pollResult": []
@@ -157,7 +157,7 @@
     "pollResult": []
   },
   "f3720f53cccb4a20841a392a8ea0457f": {
-    "numProgressed": 13868,
+    "numProgressed": 13914,
     "numCompleted": 293,
     "maxRarity": 76,
     "averageRating": 4.46,
@@ -178,7 +178,7 @@
     "pollResult": null
   },
   "93eeeab14a3d45b8bf5586a900137733": {
-    "numProgressed": 15517,
+    "numProgressed": 15524,
     "numCompleted": 39,
     "maxRarity": 3,
     "averageRating": 4.81,
@@ -197,7 +197,7 @@
       },
       {
         "id": 67,
-        "total": 378
+        "total": 379
       },
       {
         "id": 41,
@@ -222,9 +222,9 @@
     ]
   },
   "61375e6a52534a1aa2d8ba6d46f9ee64": {
-    "numProgressed": 4870,
+    "numProgressed": 4876,
     "numCompleted": 4,
-    "maxRarity": 0.9,
+    "maxRarity": 1,
     "averageRating": 4.59,
     "pollResult": []
   },
@@ -250,7 +250,7 @@
     "pollResult": []
   },
   "2e92a78949e2474aa89271b8b893f3b0": {
-    "numProgressed": 56465,
+    "numProgressed": 56486,
     "numCompleted": 56,
     "maxRarity": 33,
     "averageRating": 4.55,
@@ -264,7 +264,7 @@
     "pollResult": [
       {
         "id": 26,
-        "total": 20
+        "total": 21
       }
     ]
   },
@@ -290,15 +290,15 @@
     "pollResult": []
   },
   "87b7ded137594cbbbe7b772826ec3289": {
-    "numProgressed": 2060,
+    "numProgressed": 2123,
     "numCompleted": 0,
     "maxRarity": 77,
-    "averageRating": 4.5,
+    "averageRating": 4.53,
     "pollResult": []
   },
   "53ef2f4592684c4c97d6d32e40467274": {
-    "numProgressed": 76785,
-    "numCompleted": 365,
+    "numProgressed": 76846,
+    "numCompleted": 364,
     "maxRarity": 35,
     "averageRating": 4.3,
     "pollResult": []
@@ -332,8 +332,8 @@
     "pollResult": null
   },
   "e8bab5eae849405890fca0cd2d1f808e": {
-    "numProgressed": 36093,
-    "numCompleted": 180,
+    "numProgressed": 36123,
+    "numCompleted": 181,
     "maxRarity": 93,
     "averageRating": 4.55,
     "pollResult": []
@@ -346,7 +346,7 @@
     "pollResult": []
   },
   "043ffc92cbd64a9fbc350ea68f415937": {
-    "numProgressed": 7437,
+    "numProgressed": 7449,
     "numCompleted": 0,
     "maxRarity": 91,
     "averageRating": 4.49,
@@ -390,7 +390,7 @@
     ]
   },
   "4d96a32c1e5b49c3adccbcfa6deed873": {
-    "numProgressed": 641,
+    "numProgressed": 645,
     "numCompleted": 0,
     "maxRarity": 10,
     "averageRating": null,
@@ -411,7 +411,7 @@
     "pollResult": []
   },
   "4751c4f6a96547209a33831d847d2810": {
-    "numProgressed": 10160,
+    "numProgressed": 10162,
     "numCompleted": 9,
     "maxRarity": 96,
     "averageRating": 4.86,
@@ -488,7 +488,7 @@
     "pollResult": []
   },
   "cb62701a29834de6a91e5f634a72b6f8": {
-    "numProgressed": 999,
+    "numProgressed": 1000,
     "numCompleted": 0,
     "maxRarity": 99,
     "averageRating": 4.46,
@@ -535,19 +535,19 @@
   "40d23c079971446b87a1ea27232317f2": {
     "numProgressed": 53,
     "numCompleted": 0,
-    "maxRarity": 89,
+    "maxRarity": 91,
     "averageRating": null,
     "pollResult": []
   },
   "e9ab5f3a0f524fdf800f324800acda60": {
-    "numProgressed": 3502,
+    "numProgressed": 3515,
     "numCompleted": 0,
     "maxRarity": 44,
     "averageRating": null,
     "pollResult": []
   },
   "a25444fc25e9498781983b58ceba30c5": {
-    "numProgressed": 15752,
+    "numProgressed": 15762,
     "numCompleted": 50,
     "maxRarity": 79,
     "averageRating": 4.2,
@@ -561,16 +561,16 @@
     "pollResult": []
   },
   "e18be81f77f346dfbc4467f4ed715e27": {
-    "numProgressed": 2058,
+    "numProgressed": 2062,
     "numCompleted": 5,
     "maxRarity": 17,
     "averageRating": null,
     "pollResult": []
   },
   "6c2272d1b5f64cb483a3c1088021b39a": {
-    "numProgressed": 660,
+    "numProgressed": 665,
     "numCompleted": 0,
-    "maxRarity": 47,
+    "maxRarity": 48,
     "averageRating": null,
     "pollResult": []
   },
@@ -596,7 +596,7 @@
     "pollResult": []
   },
   "e1d9c285b5214c09b1bd096b63d2d28c": {
-    "numProgressed": 172,
+    "numProgressed": 173,
     "numCompleted": 4,
     "maxRarity": 53,
     "averageRating": null,
@@ -687,8 +687,8 @@
     "pollResult": []
   },
   "c42b08b655c04a64a0535331629d4b6d": {
-    "numProgressed": 27826,
-    "numCompleted": 1292,
+    "numProgressed": 27833,
+    "numCompleted": 1294,
     "maxRarity": 97,
     "averageRating": 4.86,
     "pollResult": [
@@ -760,21 +760,21 @@
     "pollResult": null
   },
   "8f412f068bf3470699726398816663a1": {
-    "numProgressed": 742,
+    "numProgressed": 743,
     "numCompleted": 0,
     "maxRarity": 98,
     "averageRating": null,
     "pollResult": []
   },
   "5e427319eea1401ab20c6cd78a4163c4": {
-    "numProgressed": 98457,
-    "numCompleted": 750,
+    "numProgressed": 98640,
+    "numCompleted": 752,
     "maxRarity": 78,
     "averageRating": 4.4,
     "pollResult": []
   },
   "75d74aeb36024d95b8a30bad40dc19c3": {
-    "numProgressed": 4509,
+    "numProgressed": 4517,
     "numCompleted": 0,
     "maxRarity": 76,
     "averageRating": 4.15,
@@ -813,7 +813,7 @@
     "pollResult": null
   },
   "1696ef78f67c411ea67d2c2b8e9bc5a6": {
-    "numProgressed": 416,
+    "numProgressed": 417,
     "numCompleted": 2,
     "maxRarity": 84,
     "averageRating": 4.35,
@@ -827,7 +827,7 @@
     "pollResult": []
   },
   "a1edd0d2e28d4d298152c001e7c47e22": {
-    "numProgressed": 15019,
+    "numProgressed": 15035,
     "numCompleted": 94,
     "maxRarity": 51,
     "averageRating": 4.3,
@@ -864,12 +864,12 @@
   "e6059b123f9045878919974afd435691": {
     "numProgressed": 6,
     "numCompleted": 0,
-    "maxRarity": 50,
+    "maxRarity": 67,
     "averageRating": null,
     "pollResult": null
   },
   "04e9492e1c384d3283aa2c5b329af66c": {
-    "numProgressed": 434,
+    "numProgressed": 436,
     "numCompleted": 0,
     "maxRarity": 67,
     "averageRating": null,
@@ -883,7 +883,7 @@
     "pollResult": []
   },
   "0e9ae0e756524ed49a27435c9c3c3e1c": {
-    "numProgressed": 187337,
+    "numProgressed": 187503,
     "numCompleted": 2,
     "maxRarity": 68,
     "averageRating": 4.26,
@@ -897,7 +897,7 @@
     "pollResult": []
   },
   "4930dde6add240a9bfc7ddc415dc2799": {
-    "numProgressed": 1008,
+    "numProgressed": 1009,
     "numCompleted": 12,
     "maxRarity": 85,
     "averageRating": 4.44,
@@ -916,7 +916,7 @@
     "pollResult": []
   },
   "6009be9994c2409099588cde6f3a5ed0": {
-    "numProgressed": 867096,
+    "numProgressed": 868572,
     "numCompleted": 9,
     "maxRarity": 71,
     "averageRating": 4.65,
@@ -931,19 +931,19 @@
       },
       {
         "id": 15,
-        "total": 4528
+        "total": 4535
       },
       {
         "id": 62,
-        "total": 4501
+        "total": 4513
       },
       {
         "id": 26,
-        "total": 4210
+        "total": 4220
       },
       {
         "id": 41,
-        "total": 4087
+        "total": 4098
       },
       {
         "id": 37,
@@ -951,7 +951,7 @@
       },
       {
         "id": 55,
-        "total": 3287
+        "total": 3298
       },
       {
         "id": 31,
@@ -967,10 +967,10 @@
     "pollResult": []
   },
   "e33138cc2b964d38a42a812b83b6507e": {
-    "numProgressed": 326097,
+    "numProgressed": 326230,
     "numCompleted": 5,
     "maxRarity": 46,
-    "averageRating": 4.26,
+    "averageRating": 4.25,
     "pollResult": [
       {
         "id": 41,
@@ -1040,7 +1040,7 @@
     "pollResult": []
   },
   "8d26e33298454f97888010e66a681b93": {
-    "numProgressed": 729,
+    "numProgressed": 730,
     "numCompleted": 4,
     "maxRarity": 16,
     "averageRating": null,
@@ -1068,14 +1068,14 @@
     "pollResult": null
   },
   "15cb739316ba44ed87878349d10b3ffc": {
-    "numProgressed": 334,
+    "numProgressed": 335,
     "numCompleted": 2,
-    "maxRarity": 34,
+    "maxRarity": 33,
     "averageRating": null,
     "pollResult": []
   },
   "bb9f87bb3d0042258bb1c97397bc60f2": {
-    "numProgressed": 109440,
+    "numProgressed": 109441,
     "numCompleted": 5,
     "maxRarity": 23,
     "averageRating": 4.19,
@@ -1123,7 +1123,7 @@
     ]
   },
   "af0ea01162704696bebf8633a52a7a6d": {
-    "numProgressed": 67971,
+    "numProgressed": 68002,
     "numCompleted": 35,
     "maxRarity": 74,
     "averageRating": 3.93,
@@ -1134,15 +1134,15 @@
       },
       {
         "id": 41,
-        "total": 340
+        "total": 342
       },
       {
         "id": 15,
-        "total": 328
+        "total": 331
       },
       {
         "id": 18,
-        "total": 320
+        "total": 323
       },
       {
         "id": 31,
@@ -1172,7 +1172,7 @@
     "pollResult": []
   },
   "0a4fc789eb0143c29296de79df5387ab": {
-    "numProgressed": 461837,
+    "numProgressed": 461863,
     "numCompleted": 15,
     "maxRarity": 0.5,
     "averageRating": 4.5,
@@ -1219,14 +1219,14 @@
     "pollResult": []
   },
   "77f2b98e2cef40c8a7437518bf420e47": {
-    "numProgressed": 862040,
-    "numCompleted": 1808,
+    "numProgressed": 862205,
+    "numCompleted": 1809,
     "maxRarity": 68,
     "averageRating": 4.62,
     "pollResult": [
       {
         "id": 61,
-        "total": 71403
+        "total": 71541
       },
       {
         "id": 65,
@@ -1238,7 +1238,7 @@
       },
       {
         "id": 37,
-        "total": 8180
+        "total": 8203
       },
       {
         "id": 67,
@@ -1258,11 +1258,11 @@
       },
       {
         "id": 15,
-        "total": 7863
+        "total": 7883
       },
       {
         "id": 31,
-        "total": 7832
+        "total": 7850
       },
       {
         "id": 55,
@@ -1299,7 +1299,7 @@
     "pollResult": []
   },
   "6ff9efdef6dc45ecb40ed20fcd2c4621": {
-    "numProgressed": 107532,
+    "numProgressed": 107614,
     "numCompleted": 1,
     "maxRarity": 93,
     "averageRating": 4.68,
@@ -1322,7 +1322,7 @@
       },
       {
         "id": 31,
-        "total": 1320
+        "total": 1321
       },
       {
         "id": 26,
@@ -1334,7 +1334,7 @@
       },
       {
         "id": 15,
-        "total": 1232
+        "total": 1233
       },
       {
         "id": 47,
@@ -1347,9 +1347,9 @@
     ]
   },
   "7b8963f6857041fd97a4a23845eb113d": {
-    "numProgressed": 15,
+    "numProgressed": 16,
     "numCompleted": 0,
-    "maxRarity": 93,
+    "maxRarity": 94,
     "averageRating": null,
     "pollResult": []
   },
@@ -1361,7 +1361,7 @@
     "pollResult": null
   },
   "611482b8586142cda48a0786eb8a127c": {
-    "numProgressed": 617397,
+    "numProgressed": 619129,
     "numCompleted": 42,
     "maxRarity": 5,
     "averageRating": 4.52,
@@ -1379,24 +1379,24 @@
         "total": 26471
       },
       {
+        "id": 26,
+        "total": 26259
+      },
+      {
         "id": 31,
         "total": 26252
       },
       {
-        "id": 26,
-        "total": 26214
-      },
-      {
         "id": 15,
-        "total": 25961
+        "total": 26010
       },
       {
         "id": 18,
-        "total": 25411
+        "total": 25451
       },
       {
         "id": 37,
-        "total": 23950
+        "total": 23994
       },
       {
         "id": 53,
@@ -1405,14 +1405,14 @@
     ]
   },
   "236c74b4cd2e4e3099cbe2ebdc9686fd": {
-    "numProgressed": 569399,
-    "numCompleted": 1812,
+    "numProgressed": 569693,
+    "numCompleted": 1818,
     "maxRarity": 89,
     "averageRating": 4.54,
     "pollResult": [
       {
         "id": 65,
-        "total": 4892
+        "total": 4920
       },
       {
         "id": 67,
@@ -1420,7 +1420,7 @@
       },
       {
         "id": 75,
-        "total": 314
+        "total": 318
       },
       {
         "id": 15,
@@ -1436,15 +1436,15 @@
       },
       {
         "id": 31,
-        "total": 253
-      },
-      {
-        "id": 41,
-        "total": 243
+        "total": 256
       },
       {
         "id": 26,
-        "total": 242
+        "total": 246
+      },
+      {
+        "id": 41,
+        "total": 245
       }
     ]
   },
@@ -1456,8 +1456,8 @@
     "pollResult": null
   },
   "f4a904fcef2447439c35c4e6457f3027": {
-    "numProgressed": 3411274,
-    "numCompleted": 1509,
+    "numProgressed": 3413821,
+    "numCompleted": 1511,
     "maxRarity": 91,
     "averageRating": 4.77,
     "pollResult": [
@@ -1467,7 +1467,7 @@
       },
       {
         "id": 67,
-        "total": 266
+        "total": 269
       },
       {
         "id": 41,
@@ -1479,7 +1479,7 @@
       },
       {
         "id": 15,
-        "total": 245
+        "total": 246
       },
       {
         "id": 12,
@@ -1491,11 +1491,11 @@
       },
       {
         "id": 31,
-        "total": 225
+        "total": 227
       },
       {
         "id": 26,
-        "total": 211
+        "total": 214
       },
       {
         "id": 55,
@@ -1504,14 +1504,14 @@
     ]
   },
   "0a9e3c5ab6684506bd624a849ca0cf39": {
-    "numProgressed": 507576,
-    "numCompleted": 1762,
+    "numProgressed": 507789,
+    "numCompleted": 1764,
     "maxRarity": 92,
     "averageRating": 4.89,
     "pollResult": [
       {
         "id": 65,
-        "total": 7583
+        "total": 7591
       },
       {
         "id": 37,
@@ -1523,11 +1523,11 @@
       },
       {
         "id": 75,
-        "total": 504
+        "total": 505
       },
       {
         "id": 31,
-        "total": 497
+        "total": 498
       },
       {
         "id": 26,
@@ -1555,12 +1555,12 @@
       },
       {
         "id": 55,
-        "total": 396
+        "total": 397
       }
     ]
   },
   "eca9a86adffa4605b8250d383fc01098": {
-    "numProgressed": 7002,
+    "numProgressed": 7010,
     "numCompleted": 0,
     "maxRarity": 65,
     "averageRating": 4.64,
@@ -1574,7 +1574,7 @@
     "pollResult": []
   },
   "0dabb0f14acf4fef84bd2b2bf3085dfc": {
-    "numProgressed": 480339,
+    "numProgressed": 480373,
     "numCompleted": 4,
     "maxRarity": 81,
     "averageRating": 4.45,
@@ -1665,8 +1665,8 @@
     "pollResult": []
   },
   "428115def4ca4deea9d69c99c5a5a99e": {
-    "numProgressed": 463725,
-    "numCompleted": 13197,
+    "numProgressed": 464207,
+    "numCompleted": 13202,
     "maxRarity": 94,
     "averageRating": 4.5,
     "pollResult": [
@@ -1680,7 +1680,7 @@
       },
       {
         "id": 41,
-        "total": 6560
+        "total": 6572
       },
       {
         "id": 26,
@@ -1696,11 +1696,11 @@
       },
       {
         "id": 31,
-        "total": 6243
+        "total": 6257
       },
       {
         "id": 37,
-        "total": 6241
+        "total": 6253
       },
       {
         "id": 63,
@@ -1716,7 +1716,7 @@
     "pollResult": []
   },
   "fc224bc11259446ab10c942201eb5926": {
-    "numProgressed": 893,
+    "numProgressed": 895,
     "numCompleted": 0,
     "maxRarity": 33,
     "averageRating": 4.27,
@@ -1730,7 +1730,7 @@
     "pollResult": null
   },
   "ff52981b1d9947978153c7a7f8bc6d90": {
-    "numProgressed": 122389,
+    "numProgressed": 122418,
     "numCompleted": 26,
     "maxRarity": 28,
     "averageRating": 4.86,
@@ -1789,7 +1789,7 @@
     "pollResult": null
   },
   "7e2ec8a47b8d41528eb6dd2efd2b1abc": {
-    "numProgressed": 5549,
+    "numProgressed": 5594,
     "numCompleted": 158,
     "maxRarity": 77,
     "averageRating": 4.75,
@@ -1800,7 +1800,7 @@
       },
       {
         "id": 12,
-        "total": 778
+        "total": 779
       },
       {
         "id": 41,
@@ -1837,14 +1837,14 @@
     ]
   },
   "47bf168a2214456fb7bd4c217e2a4fd6": {
-    "numProgressed": 2847,
+    "numProgressed": 2848,
     "numCompleted": 75,
     "maxRarity": 53,
     "averageRating": null,
     "pollResult": null
   },
   "e4cb896c77f842a3a75d2a19165f4ce5": {
-    "numProgressed": 316,
+    "numProgressed": 318,
     "numCompleted": 7,
     "maxRarity": 95,
     "averageRating": null,
@@ -1914,7 +1914,7 @@
     "pollResult": null
   },
   "213259527d2f41baa90cbe0ae5555271": {
-    "numProgressed": 22003,
+    "numProgressed": 22060,
     "numCompleted": 183,
     "maxRarity": 70,
     "averageRating": 4.66,
@@ -1941,7 +1941,7 @@
       },
       {
         "id": 31,
-        "total": 282
+        "total": 283
       },
       {
         "id": 12,
@@ -1954,22 +1954,22 @@
     ]
   },
   "2c42520d342a46d7a6e0cfa77b4715de": {
-    "numProgressed": 3760885,
+    "numProgressed": 3762631,
     "numCompleted": 38,
     "maxRarity": 91,
     "averageRating": 4.6,
     "pollResult": [
       {
         "id": 61,
-        "total": 39532
+        "total": 39615
       },
       {
         "id": 65,
-        "total": 17068
+        "total": 17108
       },
       {
         "id": 67,
-        "total": 2697
+        "total": 2711
       },
       {
         "id": 75,
@@ -1985,24 +1985,24 @@
       },
       {
         "id": 31,
-        "total": 1914
+        "total": 1919
       },
       {
         "id": 37,
-        "total": 1890
+        "total": 1895
       },
       {
         "id": 12,
-        "total": 1772
+        "total": 1775
       },
       {
         "id": 15,
-        "total": 1748
+        "total": 1755
       }
     ]
   },
   "87b7846d2eba4bc49eead0854323aba8": {
-    "numProgressed": 584226,
+    "numProgressed": 584450,
     "numCompleted": 58,
     "maxRarity": 11,
     "averageRating": 4.58,
@@ -2017,7 +2017,7 @@
       },
       {
         "id": 67,
-        "total": 758
+        "total": 761
       },
       {
         "id": 41,
@@ -2025,7 +2025,7 @@
       },
       {
         "id": 31,
-        "total": 700
+        "total": 702
       },
       {
         "id": 75,
@@ -2033,7 +2033,7 @@
       },
       {
         "id": 26,
-        "total": 691
+        "total": 692
       },
       {
         "id": 15,
@@ -2041,7 +2041,7 @@
       },
       {
         "id": 37,
-        "total": 649
+        "total": 656
       },
       {
         "id": 12,
@@ -2049,7 +2049,7 @@
       },
       {
         "id": 55,
-        "total": 530
+        "total": 532
       }
     ]
   },
@@ -2061,7 +2061,7 @@
     "pollResult": []
   },
   "929e7d2e310b44a0a2af387a803a8ec1": {
-    "numProgressed": 200,
+    "numProgressed": 201,
     "numCompleted": 0,
     "maxRarity": 56,
     "averageRating": null,
@@ -2124,18 +2124,18 @@
     "pollResult": []
   },
   "80d3aeb1d7c3434981e0bcbc47700a83": {
-    "numProgressed": 62856,
+    "numProgressed": 63126,
     "numCompleted": 0,
     "maxRarity": 9,
     "averageRating": 4.69,
     "pollResult": [
       {
         "id": 62,
-        "total": 5469
+        "total": 5476
       },
       {
         "id": 41,
-        "total": 5242
+        "total": 5247
       },
       {
         "id": 18,
@@ -2147,7 +2147,7 @@
       },
       {
         "id": 75,
-        "total": 5146
+        "total": 5152
       },
       {
         "id": 12,
@@ -2189,10 +2189,10 @@
     "pollResult": []
   },
   "1c943de0163f4f0982f34dc0fc37dce9": {
-    "numProgressed": 190665,
+    "numProgressed": 190700,
     "numCompleted": 4,
     "maxRarity": 71,
-    "averageRating": 4.18,
+    "averageRating": 4.17,
     "pollResult": []
   },
   "d14dcbe6b15b4fe191ff00880b9927f2": {
@@ -2258,8 +2258,8 @@
     "pollResult": null
   },
   "50118b7f954e450f8823df1614b24e80": {
-    "numProgressed": 33749552,
-    "numCompleted": 35488,
+    "numProgressed": 33760326,
+    "numCompleted": 35541,
     "maxRarity": 9,
     "averageRating": 4.52,
     "pollResult": [
@@ -2269,7 +2269,7 @@
       },
       {
         "id": 12,
-        "total": 132201
+        "total": 132258
       },
       {
         "id": 63,
@@ -2285,23 +2285,23 @@
       },
       {
         "id": 75,
-        "total": 123251
+        "total": 123310
       },
       {
         "id": 26,
-        "total": 118476
+        "total": 118511
       },
       {
         "id": 41,
-        "total": 111975
+        "total": 112036
       },
       {
         "id": 31,
-        "total": 109013
+        "total": 109059
       },
       {
         "id": 37,
-        "total": 103908
+        "total": 103957
       },
       {
         "id": 46,
@@ -2324,8 +2324,8 @@
     "pollResult": []
   },
   "3428aaab2c674c98b3acb789dcfaa548": {
-    "numProgressed": 673243,
-    "numCompleted": 66,
+    "numProgressed": 674466,
+    "numCompleted": 69,
     "maxRarity": 12,
     "averageRating": 4.67,
     "pollResult": [
@@ -2335,11 +2335,11 @@
       },
       {
         "id": 65,
-        "total": 871
+        "total": 906
       },
       {
         "id": 75,
-        "total": 212
+        "total": 224
       },
       {
         "id": 41,
@@ -2347,31 +2347,31 @@
       },
       {
         "id": 37,
-        "total": 173
+        "total": 179
       },
       {
         "id": 55,
-        "total": 167
+        "total": 171
       },
       {
         "id": 47,
-        "total": 161
+        "total": 168
       },
       {
         "id": 26,
-        "total": 160
+        "total": 164
+      },
+      {
+        "id": 12,
+        "total": 154
+      },
+      {
+        "id": 15,
+        "total": 154
       },
       {
         "id": 31,
         "total": 153
-      },
-      {
-        "id": 12,
-        "total": 147
-      },
-      {
-        "id": 15,
-        "total": 147
       }
     ]
   },
@@ -2383,14 +2383,14 @@
     "pollResult": []
   },
   "308cbcb523ad4937a8c509d10e9b688a": {
-    "numProgressed": 44727,
+    "numProgressed": 44759,
     "numCompleted": 5,
     "maxRarity": 76,
     "averageRating": 4.7,
     "pollResult": [
       {
         "id": 67,
-        "total": 4453
+        "total": 4461
       },
       {
         "id": 12,
@@ -2398,7 +2398,7 @@
       },
       {
         "id": 62,
-        "total": 3952
+        "total": 3957
       },
       {
         "id": 15,
@@ -2431,7 +2431,7 @@
     ]
   },
   "6c79fa8a8e2849e58b605f233c20a889": {
-    "numProgressed": 1818,
+    "numProgressed": 1828,
     "numCompleted": 1,
     "maxRarity": 59,
     "averageRating": null,
@@ -2445,8 +2445,8 @@
     "pollResult": []
   },
   "89fb09a222a54e53b692e9c36e68d0a1": {
-    "numProgressed": 194835,
-    "numCompleted": 451,
+    "numProgressed": 194886,
+    "numCompleted": 452,
     "maxRarity": 94,
     "averageRating": 4.32,
     "pollResult": [
@@ -2477,7 +2477,7 @@
     ]
   },
   "506976eed6054a4aad5646197adc5c8d": {
-    "numProgressed": 7097,
+    "numProgressed": 7111,
     "numCompleted": 0,
     "maxRarity": 6,
     "averageRating": null,
@@ -2491,7 +2491,7 @@
     "pollResult": []
   },
   "bda8d2133655435982b9118972792328": {
-    "numProgressed": 1520,
+    "numProgressed": 1525,
     "numCompleted": 1,
     "maxRarity": 94,
     "averageRating": 4.07,
@@ -2505,7 +2505,7 @@
     "pollResult": []
   },
   "e966687f61fa4c40b1e53b45b6e4eb75": {
-    "numProgressed": 457,
+    "numProgressed": 458,
     "numCompleted": 6,
     "maxRarity": 98,
     "averageRating": null,
@@ -2533,14 +2533,14 @@
     "pollResult": null
   },
   "3bb63a39c60c4459a5a526eb6a4b08b5": {
-    "numProgressed": 213,
+    "numProgressed": 218,
     "numCompleted": 0,
-    "maxRarity": 66,
+    "maxRarity": 67,
     "averageRating": null,
     "pollResult": []
   },
   "97071dce4a98441d9c0b7f0df92f7b31": {
-    "numProgressed": 465372,
+    "numProgressed": 465435,
     "numCompleted": 19,
     "maxRarity": 50,
     "averageRating": 4.8,
@@ -2551,11 +2551,11 @@
       },
       {
         "id": 26,
-        "total": 5966
+        "total": 5967
       },
       {
         "id": 63,
-        "total": 5788
+        "total": 5791
       },
       {
         "id": 15,
@@ -2567,7 +2567,7 @@
       },
       {
         "id": 41,
-        "total": 5741
+        "total": 5743
       },
       {
         "id": 75,
@@ -2584,7 +2584,7 @@
     ]
   },
   "5c7a78e0c4d640898d690c5e38c0392f": {
-    "numProgressed": 74022,
+    "numProgressed": 74220,
     "numCompleted": 20,
     "maxRarity": 77,
     "averageRating": 4.75,
@@ -2649,7 +2649,7 @@
     "pollResult": []
   },
   "a472b0f2f2a5493d960a941f01cf3393": {
-    "numProgressed": 38798,
+    "numProgressed": 38806,
     "numCompleted": 3,
     "maxRarity": 9,
     "averageRating": 4.15,
@@ -2675,16 +2675,16 @@
     "pollResult": []
   },
   "e6c7d54c946f4d3da27a4a6d4a45202f": {
-    "numProgressed": 0,
+    "numProgressed": 1,
     "numCompleted": 0,
-    "maxRarity": null,
+    "maxRarity": 0,
     "averageRating": null,
     "pollResult": null
   },
   "f9af68c0b03e425999c18381eb45e5fb": {
-    "numProgressed": 41,
+    "numProgressed": 42,
     "numCompleted": 0,
-    "maxRarity": 93,
+    "maxRarity": 90,
     "averageRating": null,
     "pollResult": []
   },
@@ -2772,7 +2772,7 @@
     "pollResult": null
   },
   "fbab831cc1c94385b4e311f47f6fdc4f": {
-    "numProgressed": 6043,
+    "numProgressed": 6044,
     "numCompleted": 0,
     "maxRarity": 79,
     "averageRating": 4.18,
@@ -2816,14 +2816,14 @@
     ]
   },
   "c9e2559572f64192b1e37049eee27783": {
-    "numProgressed": 1221,
+    "numProgressed": 1222,
     "numCompleted": 0,
     "maxRarity": 0,
     "averageRating": null,
     "pollResult": []
   },
   "b8abdf9f9bc64ed6b4128a71fd47607f": {
-    "numProgressed": 234606,
+    "numProgressed": 234716,
     "numCompleted": 7,
     "maxRarity": 28,
     "averageRating": 4.31,
@@ -2856,7 +2856,7 @@
     "pollResult": []
   },
   "598bbf91c75b4ac9a676d82719acdbb1": {
-    "numProgressed": 23842,
+    "numProgressed": 23854,
     "numCompleted": 46,
     "maxRarity": 86,
     "averageRating": 4.49,
@@ -2883,7 +2883,7 @@
       },
       {
         "id": 26,
-        "total": 209
+        "total": 210
       },
       {
         "id": 41,
@@ -2904,7 +2904,7 @@
     ]
   },
   "95d0b9561be1464cb43bd029e94cf526": {
-    "numProgressed": 11006,
+    "numProgressed": 11057,
     "numCompleted": 49,
     "maxRarity": 77,
     "averageRating": 4.72,
@@ -2954,18 +2954,18 @@
     "pollResult": []
   },
   "50bbaf85f4454b1c88786efeede5b302": {
-    "numProgressed": 230000,
-    "numCompleted": 755,
+    "numProgressed": 230097,
+    "numCompleted": 756,
     "maxRarity": 91,
     "averageRating": 4.85,
     "pollResult": [
       {
         "id": 67,
-        "total": 357
+        "total": 359
       },
       {
         "id": 75,
-        "total": 332
+        "total": 334
       },
       {
         "id": 41,
@@ -2985,11 +2985,11 @@
       },
       {
         "id": 37,
-        "total": 284
+        "total": 285
       },
       {
         "id": 15,
-        "total": 280
+        "total": 281
       },
       {
         "id": 62,
@@ -3006,14 +3006,14 @@
     ]
   },
   "beb7e64d3da74ae780405da48cccb581": {
-    "numProgressed": 356,
+    "numProgressed": 357,
     "numCompleted": 1,
     "maxRarity": 81,
     "averageRating": 4.25,
     "pollResult": []
   },
   "d469e82d91fe4516a00d6566c3d2f8f7": {
-    "numProgressed": 4208,
+    "numProgressed": 4215,
     "numCompleted": 9,
     "maxRarity": 73,
     "averageRating": 4.6,
@@ -3068,14 +3068,14 @@
     "pollResult": []
   },
   "b595ab13a93a4be8b6857cc14d2d6e8b": {
-    "numProgressed": 5059,
+    "numProgressed": 5061,
     "numCompleted": 1,
     "maxRarity": 50,
     "averageRating": 4.43,
     "pollResult": []
   },
   "05057ec2d5ea43c3b0701cc1518e0577": {
-    "numProgressed": 66095,
+    "numProgressed": 66109,
     "numCompleted": 99,
     "maxRarity": 6,
     "averageRating": 4.17,
@@ -3119,14 +3119,14 @@
     ]
   },
   "ec64a50e79884e28be9ac3d3cd4f5c12": {
-    "numProgressed": 6854,
+    "numProgressed": 6862,
     "numCompleted": 40,
     "maxRarity": 83,
     "averageRating": 4.15,
     "pollResult": []
   },
   "3262906d93334603b399e106492b1217": {
-    "numProgressed": 10874,
+    "numProgressed": 10880,
     "numCompleted": 24,
     "maxRarity": 80,
     "averageRating": 4.56,
@@ -3138,10 +3138,10 @@
     ]
   },
   "fd6a13a256014a22a83ff2aaacc30e00": {
-    "numProgressed": 8812,
+    "numProgressed": 8818,
     "numCompleted": 40,
     "maxRarity": 44,
-    "averageRating": 4.57,
+    "averageRating": 4.56,
     "pollResult": [
       {
         "id": 65,
@@ -3164,21 +3164,21 @@
     "pollResult": null
   },
   "9d5393fd5460430e80d2bfe9fcd55d6a": {
-    "numProgressed": 27,
+    "numProgressed": 28,
     "numCompleted": 0,
-    "maxRarity": 70,
+    "maxRarity": 68,
     "averageRating": null,
     "pollResult": []
   },
   "3bb4afc31dd241c787bad056e9b8dbf9": {
-    "numProgressed": 604,
+    "numProgressed": 605,
     "numCompleted": 0,
     "maxRarity": 27,
     "averageRating": 4.61,
     "pollResult": []
   },
   "76355dbd22b249d9a6f77790aba9547b": {
-    "numProgressed": 5127,
+    "numProgressed": 5128,
     "numCompleted": 29,
     "maxRarity": 98,
     "averageRating": 4.84,
@@ -3192,17 +3192,17 @@
     "pollResult": []
   },
   "277e364d24ec43069f4ee3c4414d5096": {
-    "numProgressed": 84379,
+    "numProgressed": 84897,
     "numCompleted": 4,
     "maxRarity": 75,
-    "averageRating": 4.69,
+    "averageRating": 4.68,
     "pollResult": []
   },
   "f5d9b93771214e4cbd60506539d1cfc6": {
-    "numProgressed": 110449,
+    "numProgressed": 111098,
     "numCompleted": 5,
     "maxRarity": 68,
-    "averageRating": 4.41,
+    "averageRating": 4.42,
     "pollResult": []
   },
   "e04dd85a41d740ac972df346afd913a6": {
@@ -3220,14 +3220,14 @@
     "pollResult": null
   },
   "min": {
-    "numProgressed": 696998,
-    "numCompleted": 6201,
+    "numProgressed": 697058,
+    "numCompleted": 6202,
     "maxRarity": 89,
     "averageRating": 4.92,
     "pollResult": [
       {
         "id": 61,
-        "total": 3153
+        "total": 3157
       },
       {
         "id": 65,
@@ -3247,7 +3247,7 @@
       },
       {
         "id": 37,
-        "total": 237
+        "total": 238
       },
       {
         "id": 31,
@@ -3276,7 +3276,7 @@
     ]
   },
   "eb348461cdaf4bec9d69a1c4bb39ecc4": {
-    "numProgressed": 658599,
+    "numProgressed": 658624,
     "numCompleted": 165,
     "maxRarity": 72,
     "averageRating": 4.57,
@@ -3312,14 +3312,14 @@
     ]
   },
   "0208da63c74542c99e8a0837e4e688c3": {
-    "numProgressed": 791,
+    "numProgressed": 792,
     "numCompleted": 0,
     "maxRarity": 73,
     "averageRating": 4.66,
     "pollResult": []
   },
   "2d831f372e6343cc85cceda5c9c808cf": {
-    "numProgressed": 1300,
+    "numProgressed": 1302,
     "numCompleted": 9,
     "maxRarity": 79,
     "averageRating": 4.73,
@@ -3340,7 +3340,7 @@
     "pollResult": null
   },
   "bd75186521ab40b5840774b78bb287e3": {
-    "numProgressed": 252060,
+    "numProgressed": 252085,
     "numCompleted": 2,
     "maxRarity": 31,
     "averageRating": 4.44,
@@ -3384,7 +3384,7 @@
   },
   "4046b000e6b0477ea639ee07e28db3d0": {
     "numProgressed": 2520,
-    "numCompleted": 99,
+    "numCompleted": 100,
     "maxRarity": 75,
     "averageRating": 4.44,
     "pollResult": []
@@ -3397,14 +3397,14 @@
     "pollResult": []
   },
   "711c559363934d6eb17c6ff3f0539b2b": {
-    "numProgressed": 392,
+    "numProgressed": 393,
     "numCompleted": 5,
     "maxRarity": 90,
     "averageRating": 4.32,
     "pollResult": []
   },
   "577c5cbc303a4d168b1a104f3b46e751": {
-    "numProgressed": 3364,
+    "numProgressed": 3368,
     "numCompleted": 5,
     "maxRarity": 81,
     "averageRating": 4.89,
@@ -3418,7 +3418,7 @@
     "pollResult": []
   },
   "ed55aa5edc5941de92fd7f64de415793": {
-    "numProgressed": 1301212,
+    "numProgressed": 1301442,
     "numCompleted": 2094,
     "maxRarity": 46,
     "averageRating": 4.78,
@@ -3429,7 +3429,7 @@
       },
       {
         "id": 41,
-        "total": 8884
+        "total": 8890
       },
       {
         "id": 26,
@@ -3449,11 +3449,11 @@
       },
       {
         "id": 12,
-        "total": 8078
+        "total": 8082
       },
       {
         "id": 55,
-        "total": 7646
+        "total": 7654
       }
     ]
   },
@@ -3465,22 +3465,22 @@
     "pollResult": null
   },
   "e97659b501af4e3981d5430dad170911": {
-    "numProgressed": 281859,
-    "numCompleted": 414,
+    "numProgressed": 281946,
+    "numCompleted": 415,
     "maxRarity": 10,
     "averageRating": 4.77,
     "pollResult": [
       {
         "id": 61,
-        "total": 20491
+        "total": 20520
       },
       {
         "id": 65,
-        "total": 9749
+        "total": 9769
       },
       {
         "id": 67,
-        "total": 871
+        "total": 874
       },
       {
         "id": 26,
@@ -3504,7 +3504,7 @@
       },
       {
         "id": 41,
-        "total": 799
+        "total": 801
       },
       {
         "id": 15,
@@ -3535,8 +3535,8 @@
     "pollResult": []
   },
   "253d451b16364a22907dd01b7e928fb6": {
-    "numProgressed": 992215,
-    "numCompleted": 332,
+    "numProgressed": 992690,
+    "numCompleted": 333,
     "maxRarity": 89,
     "averageRating": 4.56,
     "pollResult": [
@@ -3550,7 +3550,7 @@
       },
       {
         "id": 12,
-        "total": 119
+        "total": 120
       },
       {
         "id": 41,
@@ -3615,14 +3615,14 @@
     "pollResult": []
   },
   "d5cbd232ad304c91aacc20f31849435c": {
-    "numProgressed": 19791,
+    "numProgressed": 19800,
     "numCompleted": 19,
     "maxRarity": 94,
     "averageRating": 4.69,
     "pollResult": [
       {
         "id": 67,
-        "total": 298
+        "total": 300
       },
       {
         "id": 62,
@@ -3670,7 +3670,7 @@
     "pollResult": null
   },
   "5f2fcf280d11455f8eab5c1e2a4d0392": {
-    "numProgressed": 5675,
+    "numProgressed": 5677,
     "numCompleted": 3,
     "maxRarity": 3,
     "averageRating": 4.32,
@@ -3731,14 +3731,14 @@
     "pollResult": []
   },
   "7e508f543b05465abe3a935960eb70ac": {
-    "numProgressed": 197964,
-    "numCompleted": 2021,
+    "numProgressed": 200122,
+    "numCompleted": 2022,
     "maxRarity": 13,
     "averageRating": 4.06,
     "pollResult": [
       {
         "id": 75,
-        "total": 4975
+        "total": 4985
       },
       {
         "id": 67,
@@ -3746,7 +3746,7 @@
       },
       {
         "id": 15,
-        "total": 4632
+        "total": 4637
       },
       {
         "id": 12,
@@ -3754,11 +3754,11 @@
       },
       {
         "id": 31,
-        "total": 3982
+        "total": 3984
       },
       {
         "id": 41,
-        "total": 3973
+        "total": 3977
       },
       {
         "id": 46,
@@ -3802,7 +3802,7 @@
     "pollResult": null
   },
   "94cec4802e954a6c9579e29e8b817f3a": {
-    "numProgressed": 399506,
+    "numProgressed": 399717,
     "numCompleted": 2,
     "maxRarity": 5,
     "averageRating": 4.61,
@@ -3829,7 +3829,7 @@
       },
       {
         "id": 41,
-        "total": 292
+        "total": 293
       },
       {
         "id": 37,
@@ -3853,7 +3853,7 @@
     "pollResult": []
   },
   "d250bdf072934b70ab080c6fcee77734": {
-    "numProgressed": 33511,
+    "numProgressed": 33562,
     "numCompleted": 22,
     "maxRarity": 85,
     "averageRating": 4.37,
@@ -3912,21 +3912,21 @@
     "pollResult": []
   },
   "405a48516fba4540bd8cc17c53085ab2": {
-    "numProgressed": 366,
+    "numProgressed": 368,
     "numCompleted": 65,
     "maxRarity": 98,
     "averageRating": null,
     "pollResult": []
   },
   "25163a0f3c9d47d38afe753d53fd27bb": {
-    "numProgressed": 481,
+    "numProgressed": 484,
     "numCompleted": 57,
     "maxRarity": 96,
     "averageRating": null,
     "pollResult": []
   },
   "30de69013f3b41b0ba594a8ef3b693ba": {
-    "numProgressed": 6328,
+    "numProgressed": 6330,
     "numCompleted": 8,
     "maxRarity": 54,
     "averageRating": 4.56,
@@ -3970,7 +3970,7 @@
     ]
   },
   "1efd3d783b814b8b8548fb60c5983825": {
-    "numProgressed": 2747,
+    "numProgressed": 2749,
     "numCompleted": 0,
     "maxRarity": 20,
     "averageRating": 4.57,
@@ -3991,7 +3991,7 @@
     "pollResult": []
   },
   "0e14884122774ea28f1d33f751d241e6": {
-    "numProgressed": 1237,
+    "numProgressed": 1239,
     "numCompleted": 87,
     "maxRarity": 100,
     "averageRating": null,
@@ -4047,7 +4047,7 @@
     "pollResult": null
   },
   "ce8393adfbf342ceab0a36479ffbc627": {
-    "numProgressed": 13593,
+    "numProgressed": 13604,
     "numCompleted": 103,
     "maxRarity": 41,
     "averageRating": 4.52,
@@ -4063,7 +4063,7 @@
     ]
   },
   "7c53d7dc86494d5abcdc974b0ef0a843": {
-    "numProgressed": 426375,
+    "numProgressed": 426390,
     "numCompleted": 513,
     "maxRarity": 95,
     "averageRating": 4.7,
@@ -4122,7 +4122,7 @@
     "pollResult": []
   },
   "ca4058f18b0a4a9e9e2ccc28f7f33000": {
-    "numProgressed": 790066,
+    "numProgressed": 790143,
     "numCompleted": 43,
     "maxRarity": 31,
     "averageRating": 4.71,
@@ -4137,7 +4137,7 @@
       },
       {
         "id": 18,
-        "total": 1705
+        "total": 1707
       },
       {
         "id": 37,
@@ -4181,7 +4181,7 @@
     "pollResult": []
   },
   "ba50f06379bd4ae18bad48d1b2f950ac": {
-    "numProgressed": 299,
+    "numProgressed": 300,
     "numCompleted": 8,
     "maxRarity": 79,
     "averageRating": 4.37,
@@ -4202,7 +4202,7 @@
     "pollResult": []
   },
   "70d9536d99af4c70a55e4c23989f4225": {
-    "numProgressed": 635057,
+    "numProgressed": 635275,
     "numCompleted": 14,
     "maxRarity": 81,
     "averageRating": 4.07,
@@ -4255,14 +4255,14 @@
     "pollResult": []
   },
   "9c59efaabb6a48f19b3485d5d9416032": {
-    "numProgressed": 49764,
+    "numProgressed": 49768,
     "numCompleted": 197,
     "maxRarity": 97,
     "averageRating": 4.78,
     "pollResult": [
       {
         "id": 65,
-        "total": 2330
+        "total": 2332
       },
       {
         "id": 75,
@@ -4380,9 +4380,9 @@
     "pollResult": []
   },
   "2df9c4ac2a644e4daf2e0a752500457d": {
-    "numProgressed": 132,
+    "numProgressed": 135,
     "numCompleted": 0,
-    "maxRarity": 72,
+    "maxRarity": 73,
     "averageRating": null,
     "pollResult": []
   },
@@ -4394,11 +4394,18 @@
     "pollResult": []
   },
   "3ccad173be604de5b7df527b244f0308": {
-    "numProgressed": 392,
+    "numProgressed": 393,
     "numCompleted": 0,
     "maxRarity": 39,
     "averageRating": null,
     "pollResult": []
+  },
+  "c3900988383a48b4959c3292a8a555eb": {
+    "numProgressed": 0,
+    "numCompleted": 0,
+    "maxRarity": null,
+    "averageRating": null,
+    "pollResult": null
   },
   "9dd57a83fbae44f5b0fee00cf941be7d": {
     "numProgressed": 0,
@@ -4422,7 +4429,7 @@
     "pollResult": []
   },
   "89a30c2a3fdb4281b5df57350e797ca9": {
-    "numProgressed": 160,
+    "numProgressed": 162,
     "numCompleted": 0,
     "maxRarity": 43,
     "averageRating": null,
@@ -4436,14 +4443,14 @@
     "pollResult": []
   },
   "6840592dd7994a8ebfaac93d7515b187": {
-    "numProgressed": 36,
+    "numProgressed": 37,
     "numCompleted": 4,
-    "maxRarity": 53,
+    "maxRarity": 54,
     "averageRating": null,
     "pollResult": []
   },
   "09508f70d8d44e108e89ebcc7114ec4f": {
-    "numProgressed": 296,
+    "numProgressed": 297,
     "numCompleted": 7,
     "maxRarity": 98,
     "averageRating": null,
@@ -4540,14 +4547,14 @@
     "pollResult": []
   },
   "632b8c18774d480d978cb116518cd06b": {
-    "numProgressed": 1194,
+    "numProgressed": 1195,
     "numCompleted": 0,
     "maxRarity": 92,
     "averageRating": 4.35,
     "pollResult": []
   },
   "964f58c4c2074404bf9c359483ab1a48": {
-    "numProgressed": 1200417,
+    "numProgressed": 1201417,
     "numCompleted": 0,
     "maxRarity": 60,
     "averageRating": 4.39,
@@ -4563,10 +4570,6 @@
       {
         "id": 15,
         "total": 23
-      },
-      {
-        "id": 37,
-        "total": 22
       },
       {
         "id": 31,
@@ -4628,14 +4631,14 @@
     "pollResult": []
   },
   "0610384879594dd0b42c73e2d8af88ae": {
-    "numProgressed": 380,
+    "numProgressed": 381,
     "numCompleted": 0,
     "maxRarity": 1,
     "averageRating": null,
     "pollResult": []
   },
   "2bda08f9230144a19e98373cc4a6ac2d": {
-    "numProgressed": 1449424,
+    "numProgressed": 1450152,
     "numCompleted": 40,
     "maxRarity": 49,
     "averageRating": 4.4,
@@ -4646,7 +4649,7 @@
       },
       {
         "id": 75,
-        "total": 322
+        "total": 325
       },
       {
         "id": 18,
@@ -4671,18 +4674,18 @@
     ]
   },
   "aeac94c7a11048758064b82f8f8d20ed": {
-    "numProgressed": 54460,
+    "numProgressed": 54498,
     "numCompleted": 0,
     "maxRarity": 36,
     "averageRating": 4.74,
     "pollResult": [
       {
         "id": 61,
-        "total": 6730
+        "total": 6738
       },
       {
         "id": 67,
-        "total": 866
+        "total": 868
       },
       {
         "id": 75,
@@ -4821,7 +4824,7 @@
       },
       {
         "id": 41,
-        "total": 75
+        "total": 76
       },
       {
         "id": 15,
@@ -4833,7 +4836,7 @@
       },
       {
         "id": 75,
-        "total": 67
+        "total": 68
       },
       {
         "id": 31,
@@ -4930,7 +4933,7 @@
     "pollResult": []
   },
   "28ed8f56800c4bcc9eaa0c5264ec6917": {
-    "numProgressed": 3446,
+    "numProgressed": 3447,
     "numCompleted": 0,
     "maxRarity": 49,
     "averageRating": 4.09,
@@ -4972,7 +4975,7 @@
     "pollResult": null
   },
   "2755e0338895421ebeb217fe1f742e7b": {
-    "numProgressed": 3,
+    "numProgressed": 4,
     "numCompleted": 0,
     "maxRarity": 100,
     "averageRating": null,
@@ -4986,7 +4989,7 @@
     "pollResult": null
   },
   "5424c96246c54737aad95daa7fe724f8": {
-    "numProgressed": 1353,
+    "numProgressed": 1361,
     "numCompleted": 0,
     "maxRarity": 41,
     "averageRating": 3.91,
@@ -5000,9 +5003,9 @@
     "pollResult": null
   },
   "07f4a7dd3c884e5d87e9a209716962ca": {
-    "numProgressed": 12388,
+    "numProgressed": 12401,
     "numCompleted": 4,
-    "maxRarity": 83,
+    "maxRarity": 84,
     "averageRating": 4.65,
     "pollResult": [
       {
@@ -5072,7 +5075,7 @@
     "pollResult": []
   },
   "fa9a00f7f82846b4b820e6152b69aa55": {
-    "numProgressed": 273,
+    "numProgressed": 278,
     "numCompleted": 0,
     "maxRarity": 49,
     "averageRating": null,
@@ -5158,9 +5161,9 @@
     "pollResult": []
   },
   "877e0717992c4058acdb32363130958a": {
-    "numProgressed": 91,
+    "numProgressed": 98,
     "numCompleted": 0,
-    "maxRarity": 90,
+    "maxRarity": 87,
     "averageRating": null,
     "pollResult": []
   },
@@ -5186,14 +5189,14 @@
     "pollResult": []
   },
   "aa102e1c575d42868a11ac8e79af2126": {
-    "numProgressed": 1077,
+    "numProgressed": 1079,
     "numCompleted": 1,
     "maxRarity": 34,
     "averageRating": 4.61,
     "pollResult": []
   },
   "975d251af0384c88a898a996bda4881d": {
-    "numProgressed": 10096,
+    "numProgressed": 10101,
     "numCompleted": 0,
     "maxRarity": 19,
     "averageRating": 4.76,
@@ -5248,14 +5251,14 @@
     "pollResult": []
   },
   "3b661fd6a9724ac7b6ac6d10d0572511": {
-    "numProgressed": 1368440,
-    "numCompleted": 264,
-    "maxRarity": 0.4,
+    "numProgressed": 1372707,
+    "numCompleted": 266,
+    "maxRarity": 0.7,
     "averageRating": 4.57,
     "pollResult": [
       {
         "id": 65,
-        "total": 3475
+        "total": 3664
       },
       {
         "id": 67,
@@ -5263,31 +5266,31 @@
       },
       {
         "id": 75,
-        "total": 190
+        "total": 209
+      },
+      {
+        "id": 18,
+        "total": 195
+      },
+      {
+        "id": 26,
+        "total": 187
+      },
+      {
+        "id": 37,
+        "total": 185
       },
       {
         "id": 41,
         "total": 182
       },
       {
-        "id": 18,
+        "id": 31,
         "total": 179
       },
       {
         "id": 15,
         "total": 174
-      },
-      {
-        "id": 37,
-        "total": 165
-      },
-      {
-        "id": 26,
-        "total": 164
-      },
-      {
-        "id": 31,
-        "total": 162
       },
       {
         "id": 12,
@@ -5296,7 +5299,7 @@
     ]
   },
   "8f5f5eff22f3468fa5551771406fc868": {
-    "numProgressed": 3525064,
+    "numProgressed": 3525305,
     "numCompleted": 28,
     "maxRarity": 48,
     "averageRating": 4.66,
@@ -5315,11 +5318,11 @@
       },
       {
         "id": 26,
-        "total": 963
+        "total": 965
       },
       {
         "id": 15,
-        "total": 930
+        "total": 931
       },
       {
         "id": 41,
@@ -5340,7 +5343,7 @@
     ]
   },
   "65a9273ec61f4bb6b94461eb1ce8ec23": {
-    "numProgressed": 191669,
+    "numProgressed": 191943,
     "numCompleted": 120,
     "maxRarity": 70,
     "averageRating": 4.61,
@@ -5359,7 +5362,7 @@
       },
       {
         "id": 26,
-        "total": 560
+        "total": 561
       },
       {
         "id": 15,
@@ -5384,7 +5387,7 @@
     ]
   },
   "b589bb7fbc204ee59d363b9fb4ef0a41": {
-    "numProgressed": 3052,
+    "numProgressed": 3056,
     "numCompleted": 0,
     "maxRarity": 5,
     "averageRating": null,
@@ -5401,7 +5404,7 @@
     "numProgressed": 1083,
     "numCompleted": 4,
     "maxRarity": 82,
-    "averageRating": 4.66,
+    "averageRating": 4.65,
     "pollResult": [
       {
         "id": 61,
@@ -5446,7 +5449,7 @@
     ]
   },
   "c11f80fe3b674a2bbf60e4c46d588a54": {
-    "numProgressed": 234476,
+    "numProgressed": 234608,
     "numCompleted": 0,
     "maxRarity": 82,
     "averageRating": 4.04,
@@ -5533,14 +5536,14 @@
     "pollResult": null
   },
   "a0149619255648e8af0993a17ef4ee8e": {
-    "numProgressed": 494359,
+    "numProgressed": 494633,
     "numCompleted": 1,
     "maxRarity": 76,
     "averageRating": 3.8,
     "pollResult": [
       {
         "id": 67,
-        "total": 23
+        "total": 24
       }
     ]
   },
@@ -5573,7 +5576,7 @@
     "pollResult": []
   },
   "c4395ba88061417a8ac6bd3fdc7fba79": {
-    "numProgressed": 1451,
+    "numProgressed": 1453,
     "numCompleted": 7,
     "maxRarity": 98,
     "averageRating": 3.82,
@@ -5606,7 +5609,7 @@
     "pollResult": null
   },
   "3ffb410dab2d409aacd39a1abc6fcbba": {
-    "numProgressed": 142323,
+    "numProgressed": 142571,
     "numCompleted": 5,
     "maxRarity": 26,
     "averageRating": 4.61,
@@ -5621,7 +5624,7 @@
       },
       {
         "id": 41,
-        "total": 424
+        "total": 425
       },
       {
         "id": 15,
@@ -5629,7 +5632,7 @@
       },
       {
         "id": 12,
-        "total": 394
+        "total": 395
       },
       {
         "id": 75,
@@ -5641,7 +5644,7 @@
       },
       {
         "id": 31,
-        "total": 355
+        "total": 356
       },
       {
         "id": 55,
@@ -5664,18 +5667,18 @@
     "pollResult": []
   },
   "eb99ee4694474e8da0b05a8ab391825c": {
-    "numProgressed": 421579,
+    "numProgressed": 422571,
     "numCompleted": 10,
-    "maxRarity": 76,
+    "maxRarity": 77,
     "averageRating": 3.98,
     "pollResult": [
       {
         "id": 63,
-        "total": 2442
+        "total": 2461
       },
       {
         "id": 15,
-        "total": 2254
+        "total": 2264
       },
       {
         "id": 18,
@@ -5683,11 +5686,11 @@
       },
       {
         "id": 41,
-        "total": 1966
+        "total": 1979
       },
       {
         "id": 53,
-        "total": 1376
+        "total": 1391
       }
     ]
   },
@@ -5713,9 +5716,9 @@
     "pollResult": null
   },
   "b72f5f79f855471e9691ff22e4967656": {
-    "numProgressed": 6,
+    "numProgressed": 7,
     "numCompleted": 0,
-    "maxRarity": 117,
+    "maxRarity": 114,
     "averageRating": null,
     "pollResult": []
   },
@@ -5767,7 +5770,7 @@
     ]
   },
   "7277899e0d3241ea81ee56943fd31567": {
-    "numProgressed": 19114,
+    "numProgressed": 19120,
     "numCompleted": 31,
     "maxRarity": 98,
     "averageRating": 4.54,
@@ -5851,7 +5854,7 @@
     ]
   },
   "2d2e05ea844c42dc80ef341d89542b16": {
-    "numProgressed": 1414,
+    "numProgressed": 1416,
     "numCompleted": 0,
     "maxRarity": 73,
     "averageRating": 4.38,
@@ -5875,7 +5878,7 @@
     "numProgressed": 1708,
     "numCompleted": 0,
     "maxRarity": 77,
-    "averageRating": 3.51,
+    "averageRating": 3.53,
     "pollResult": []
   },
   "05ae696a3c5f49af91a7433547460c21": {
@@ -5886,7 +5889,7 @@
     "pollResult": []
   },
   "93ea0d593cb04e62afb0741bbf894173": {
-    "numProgressed": 225946,
+    "numProgressed": 225981,
     "numCompleted": 46,
     "maxRarity": 41,
     "averageRating": 4.51,
@@ -5970,7 +5973,7 @@
     "pollResult": []
   },
   "b9c7474c6bdf4e9ab8ca5a5da60059d4": {
-    "numProgressed": 231607,
+    "numProgressed": 231641,
     "numCompleted": 242,
     "maxRarity": 96,
     "averageRating": 4.58,
@@ -5985,7 +5988,7 @@
       },
       {
         "id": 18,
-        "total": 1401
+        "total": 1402
       },
       {
         "id": 26,
@@ -6014,7 +6017,7 @@
     ]
   },
   "9f101e25b1a9427a9e6971d2b21c5f82": {
-    "numProgressed": 698668,
+    "numProgressed": 698944,
     "numCompleted": 3,
     "maxRarity": 48,
     "averageRating": 4.23,
@@ -6035,7 +6038,7 @@
     "pollResult": null
   },
   "100f8957d16d4d2d89716775b5767779": {
-    "numProgressed": 520784,
+    "numProgressed": 520832,
     "numCompleted": 435,
     "maxRarity": 70,
     "averageRating": 4.47,
@@ -6049,7 +6052,7 @@
     "pollResult": []
   },
   "68c8fe90d12b4ea494f549ec409f58c8": {
-    "numProgressed": 321,
+    "numProgressed": 322,
     "numCompleted": 2,
     "maxRarity": 54,
     "averageRating": null,
@@ -6070,8 +6073,8 @@
     "pollResult": []
   },
   "9773aa1aa54f4f7b80e44bef04986cea": {
-    "numProgressed": 24483869,
-    "numCompleted": 2060,
+    "numProgressed": 24491533,
+    "numCompleted": 2061,
     "maxRarity": 81,
     "averageRating": 4.5,
     "pollResult": [
@@ -6114,7 +6117,7 @@
     ]
   },
   "4966d5da285c4f2c876937844b0e23ee": {
-    "numProgressed": 22386,
+    "numProgressed": 22388,
     "numCompleted": 35,
     "maxRarity": 2,
     "averageRating": 4.85,
@@ -6237,17 +6240,17 @@
     ]
   },
   "aa7c3e6b5a2a4ca8962270c15bddb861": {
-    "numProgressed": 245718,
+    "numProgressed": 245741,
     "numCompleted": 3,
     "maxRarity": 53,
     "averageRating": 4.46,
     "pollResult": []
   },
   "66a0893b7b9a42a695f0a387d64dfcc6": {
-    "numProgressed": 73012,
-    "numCompleted": 699,
+    "numProgressed": 73142,
+    "numCompleted": 700,
     "maxRarity": 34,
-    "averageRating": 4.51,
+    "averageRating": 4.52,
     "pollResult": []
   },
   "d93cf08971eb4920862a95870a051f81": {
@@ -6272,7 +6275,7 @@
     "pollResult": []
   },
   "0d23bb77ee2f45b7a571bde68caddb09": {
-    "numProgressed": 49944,
+    "numProgressed": 50030,
     "numCompleted": 26,
     "maxRarity": 35,
     "averageRating": 3.78,
@@ -6287,7 +6290,7 @@
       },
       {
         "id": 41,
-        "total": 983
+        "total": 985
       },
       {
         "id": 67,
@@ -6316,7 +6319,7 @@
     ]
   },
   "151e56468b5049628653dedab7c88007": {
-    "numProgressed": 206099,
+    "numProgressed": 206489,
     "numCompleted": 14,
     "maxRarity": 66,
     "averageRating": 4.4,
@@ -6328,7 +6331,7 @@
     ]
   },
   "5e0e5678caaa469baf3a8627c3d1dee4": {
-    "numProgressed": 64986,
+    "numProgressed": 64994,
     "numCompleted": 1197,
     "maxRarity": 90,
     "averageRating": 4.31,
@@ -6372,8 +6375,8 @@
     ]
   },
   "79d9bff700bb46a790b21e8c73b34899": {
-    "numProgressed": 526053,
-    "numCompleted": 1462,
+    "numProgressed": 526100,
+    "numCompleted": 1463,
     "maxRarity": 83,
     "averageRating": 4.61,
     "pollResult": [
@@ -6391,11 +6394,11 @@
       },
       {
         "id": 26,
-        "total": 232
+        "total": 233
       },
       {
         "id": 75,
-        "total": 229
+        "total": 230
       },
       {
         "id": 37,
@@ -6419,7 +6422,7 @@
     "pollResult": []
   },
   "c749cd78da34408d8434a46271f4bb79": {
-    "numProgressed": 64310,
+    "numProgressed": 64317,
     "numCompleted": 13,
     "maxRarity": 4,
     "averageRating": 4.25,
@@ -6433,35 +6436,35 @@
     "pollResult": []
   },
   "8dcfcaf1aa72402fa2e84897f6cccc50": {
-    "numProgressed": 108,
+    "numProgressed": 110,
     "numCompleted": 0,
     "maxRarity": 12,
     "averageRating": null,
     "pollResult": []
   },
   "135201128d4f428699a891fc501a5097": {
-    "numProgressed": 2150,
+    "numProgressed": 2151,
     "numCompleted": 148,
     "maxRarity": 7,
     "averageRating": 4.48,
     "pollResult": []
   },
   "c1edd23d035a4df0bbc419f2d0fbb40d": {
-    "numProgressed": 287,
+    "numProgressed": 288,
     "numCompleted": 1,
     "maxRarity": 60,
     "averageRating": 4.31,
     "pollResult": []
   },
   "dc989527f6684c218eb8f5992e85cfea": {
-    "numProgressed": 5059,
+    "numProgressed": 5152,
     "numCompleted": 0,
     "maxRarity": 41,
     "averageRating": null,
     "pollResult": []
   },
   "3428aac705b44d88beb8334780fa33bd": {
-    "numProgressed": 1100,
+    "numProgressed": 1102,
     "numCompleted": 42,
     "maxRarity": 83,
     "averageRating": null,
@@ -6499,7 +6502,7 @@
     "pollResult": []
   },
   "e29e6ef093fd468db40b6fb505de6fa8": {
-    "numProgressed": 2486,
+    "numProgressed": 2487,
     "numCompleted": 0,
     "maxRarity": 56,
     "averageRating": 4.67,
@@ -6558,7 +6561,7 @@
     "pollResult": []
   },
   "5db7394e65044dd1bb083ee983e2b3a5": {
-    "numProgressed": 420468,
+    "numProgressed": 420624,
     "numCompleted": 37,
     "maxRarity": 13,
     "averageRating": 4.68,
@@ -6577,7 +6580,7 @@
     "pollResult": null
   },
   "2f215955790d456b80c291bc2feaf7f7": {
-    "numProgressed": 181561,
+    "numProgressed": 181731,
     "numCompleted": 55,
     "maxRarity": 10,
     "averageRating": 4.66,
@@ -6644,7 +6647,7 @@
     "pollResult": null
   },
   "f9bc208b965c4fb7afd0c842d764fc37": {
-    "numProgressed": 500,
+    "numProgressed": 501,
     "numCompleted": 24,
     "maxRarity": 64,
     "averageRating": 4.64,
@@ -6672,7 +6675,7 @@
     "pollResult": null
   },
   "9696e0c7c26841789a152588c744d506": {
-    "numProgressed": 131596,
+    "numProgressed": 131630,
     "numCompleted": 112,
     "maxRarity": 97,
     "averageRating": 3.99,
@@ -6729,14 +6732,14 @@
     "pollResult": []
   },
   "b7b42e2078524ab386a8b2a9856ef557": {
-    "numProgressed": 710275,
+    "numProgressed": 710300,
     "numCompleted": 12795,
     "maxRarity": 5,
     "averageRating": 4.82,
     "pollResult": [
       {
         "id": 65,
-        "total": 6215
+        "total": 6219
       },
       {
         "id": 75,
@@ -6812,7 +6815,7 @@
     "pollResult": []
   },
   "6feac7e685174dd698e90ca9536e1299": {
-    "numProgressed": 7868,
+    "numProgressed": 7870,
     "numCompleted": 12,
     "maxRarity": 93,
     "averageRating": 4.71,
@@ -6852,7 +6855,7 @@
     ]
   },
   "5a85738bd9e74940ad8409ed8a2c680a": {
-    "numProgressed": 27955,
+    "numProgressed": 28023,
     "numCompleted": 20,
     "maxRarity": 20,
     "averageRating": 4.28,
@@ -6864,7 +6867,7 @@
     ]
   },
   "390584f0f63a4e69978eafa4d4fce9e7": {
-    "numProgressed": 19354,
+    "numProgressed": 19359,
     "numCompleted": 18,
     "maxRarity": 4,
     "averageRating": 4.54,
@@ -6885,10 +6888,10 @@
     "pollResult": null
   },
   "18ad196e381b4331bf856e71a85ee0df": {
-    "numProgressed": 3161,
+    "numProgressed": 3164,
     "numCompleted": 6,
-    "maxRarity": 3,
-    "averageRating": 4.47,
+    "maxRarity": 0.1,
+    "averageRating": 4.45,
     "pollResult": []
   },
   "3f1644a69af740258cc57a938284017b": {
@@ -6942,7 +6945,7 @@
     ]
   },
   "78705aae6f39495e920966615c7a22ae": {
-    "numProgressed": 183,
+    "numProgressed": 186,
     "numCompleted": 25,
     "maxRarity": 98,
     "averageRating": 4.57,
@@ -7010,7 +7013,7 @@
     "pollResult": []
   },
   "6098a8c7375c43458a22163a637c0c2f": {
-    "numProgressed": 60100,
+    "numProgressed": 60166,
     "numCompleted": 304,
     "maxRarity": 67,
     "averageRating": 4.36,
@@ -7080,9 +7083,9 @@
     "pollResult": null
   },
   "d2b282a6b53e409a8f8329d3d3356f21": {
-    "numProgressed": 78841,
+    "numProgressed": 78853,
     "numCompleted": 2145,
-    "maxRarity": 98,
+    "maxRarity": 97,
     "averageRating": 4.51,
     "pollResult": [
       {
@@ -7135,9 +7138,9 @@
     "pollResult": []
   },
   "8b8d2e16c20b4300ae0dc66db4d630ba": {
-    "numProgressed": 2,
+    "numProgressed": 4,
     "numCompleted": 0,
-    "maxRarity": 50,
+    "maxRarity": 25,
     "averageRating": null,
     "pollResult": []
   },
@@ -7149,14 +7152,14 @@
     "pollResult": []
   },
   "7d9cb4fa8c4b488d86c7e9dec37318d5": {
-    "numProgressed": 150,
+    "numProgressed": 151,
     "numCompleted": 0,
     "maxRarity": 89,
     "averageRating": null,
     "pollResult": []
   },
   "f672c20984f04f69936e6057feefe3d1": {
-    "numProgressed": 32406,
+    "numProgressed": 32433,
     "numCompleted": 3,
     "maxRarity": 36,
     "averageRating": 4.58,
@@ -7201,7 +7204,7 @@
     "pollResult": null
   },
   "ae373893881044d2bf26d6f8363a120e": {
-    "numProgressed": 714011,
+    "numProgressed": 714098,
     "numCompleted": 701,
     "maxRarity": 99,
     "averageRating": 4.61,
@@ -7249,7 +7252,7 @@
     ]
   },
   "ffa7b0821b4142d5873ecb0528715003": {
-    "numProgressed": 2131,
+    "numProgressed": 2132,
     "numCompleted": 256,
     "maxRarity": 99,
     "averageRating": 4.77,
@@ -7268,7 +7271,7 @@
     "pollResult": null
   },
   "95b4d5a753d042678f775d5e1eb5ab25": {
-    "numProgressed": 6907,
+    "numProgressed": 6919,
     "numCompleted": 0,
     "maxRarity": 71,
     "averageRating": 4.47,
@@ -7343,7 +7346,7 @@
     "numProgressed": 2,
     "numCompleted": 0,
     "maxRarity": 0,
-    "averageRating": 4.57,
+    "averageRating": 4.56,
     "pollResult": []
   },
   "95f3bd44c8394061aca3eb1ce4b1f0fb": {
@@ -7375,7 +7378,7 @@
     "pollResult": []
   },
   "538de058a6d9490ea151c4cd111cc01b": {
-    "numProgressed": 117846,
+    "numProgressed": 117942,
     "numCompleted": 27,
     "maxRarity": 89,
     "averageRating": 4.39,
@@ -7406,7 +7409,7 @@
       },
       {
         "id": 31,
-        "total": 268
+        "total": 269
       },
       {
         "id": 45,
@@ -7423,7 +7426,7 @@
     ]
   },
   "2e09c1d223094f3798f63873548c9454": {
-    "numProgressed": 6633,
+    "numProgressed": 6634,
     "numCompleted": 25,
     "maxRarity": 20,
     "averageRating": 4.76,
@@ -7444,7 +7447,7 @@
     "pollResult": []
   },
   "25d726130e6c4fe68f88e71933bda955": {
-    "numProgressed": 64877,
+    "numProgressed": 64952,
     "numCompleted": 67,
     "maxRarity": 38,
     "averageRating": 4.54,
@@ -7471,7 +7474,7 @@
       },
       {
         "id": 37,
-        "total": 351
+        "total": 352
       },
       {
         "id": 53,
@@ -7505,7 +7508,7 @@
     "pollResult": null
   },
   "b4e95103463b491ab34b29e616404325": {
-    "numProgressed": 28727,
+    "numProgressed": 28795,
     "numCompleted": 5,
     "maxRarity": 26,
     "averageRating": 4.7,
@@ -7560,7 +7563,7 @@
     "pollResult": null
   },
   "51dd70aea58d47609d82b87473877daa": {
-    "numProgressed": 69,
+    "numProgressed": 70,
     "numCompleted": 1,
     "maxRarity": 86,
     "averageRating": null,
@@ -7588,22 +7591,22 @@
     "pollResult": []
   },
   "6b0541b5d9aa476cbf407643ab3b1d7d": {
-    "numProgressed": 15585,
-    "numCompleted": 57,
+    "numProgressed": 15587,
+    "numCompleted": 59,
     "maxRarity": 0.1,
     "averageRating": 4.19,
     "pollResult": [
       {
         "id": 37,
-        "total": 59
+        "total": 61
       },
       {
         "id": 41,
-        "total": 57
+        "total": 59
       },
       {
         "id": 31,
-        "total": 57
+        "total": 59
       },
       {
         "id": 15,
@@ -7680,7 +7683,7 @@
     "pollResult": null
   },
   "b022b60ee02545788d645fe353f5ddd6": {
-    "numProgressed": 13,
+    "numProgressed": 14,
     "numCompleted": 0,
     "maxRarity": 0,
     "averageRating": null,
@@ -7694,9 +7697,9 @@
     "pollResult": null
   },
   "456d95ca54814c8d98db2f52346ff5de": {
-    "numProgressed": 257,
+    "numProgressed": 10799,
     "numCompleted": 0,
-    "maxRarity": 92,
+    "maxRarity": 51,
     "averageRating": 4.7,
     "pollResult": [
       {
@@ -7713,7 +7716,7 @@
     "pollResult": []
   },
   "489c2ca47aaa4190b694184b979d3b23": {
-    "numProgressed": 32786,
+    "numProgressed": 32805,
     "numCompleted": 102,
     "maxRarity": 78,
     "averageRating": 4,
@@ -7731,7 +7734,7 @@
     "numCompleted": 0,
     "maxRarity": 93,
     "averageRating": null,
-    "pollResult": []
+    "pollResult": null
   },
   "36676380b51d4b528e19f422b31ac5c4": {
     "numProgressed": 2,
@@ -7741,7 +7744,7 @@
     "pollResult": null
   },
   "d84e1be6c7764408b3d0f610c84cb8ea": {
-    "numProgressed": 268,
+    "numProgressed": 269,
     "numCompleted": 0,
     "maxRarity": 48,
     "averageRating": null,
@@ -7762,9 +7765,9 @@
     "pollResult": null
   },
   "19d61df85a76492f82c4b59fa8f8f9eb": {
-    "numProgressed": 107,
+    "numProgressed": 109,
     "numCompleted": 16,
-    "maxRarity": 62,
+    "maxRarity": 61,
     "averageRating": null,
     "pollResult": []
   },
@@ -7804,7 +7807,7 @@
     "pollResult": []
   },
   "8912b079197744f58b41915923cc8da1": {
-    "numProgressed": 1784,
+    "numProgressed": 1791,
     "numCompleted": 152,
     "maxRarity": 37,
     "averageRating": null,
@@ -7813,7 +7816,7 @@
   "22068a5c6e3649599c02ba4ec6be1a03": {
     "numProgressed": 456,
     "numCompleted": 1,
-    "maxRarity": 62,
+    "maxRarity": 63,
     "averageRating": null,
     "pollResult": []
   },
@@ -7874,7 +7877,7 @@
     "pollResult": []
   },
   "67eb392889234b4d99a6562c5e60c825": {
-    "numProgressed": 1198,
+    "numProgressed": 1202,
     "numCompleted": 61,
     "maxRarity": 76,
     "averageRating": 4.18,
@@ -7893,7 +7896,7 @@
     ]
   },
   "effee7c2775148e9a99f5685d29751d2": {
-    "numProgressed": 1817,
+    "numProgressed": 1818,
     "numCompleted": 10,
     "maxRarity": 80,
     "averageRating": 4.24,
@@ -7949,7 +7952,7 @@
     "pollResult": []
   },
   "a567c32599bf4d4fb609e424f3691b39": {
-    "numProgressed": 225094,
+    "numProgressed": 225120,
     "numCompleted": 3,
     "maxRarity": 36,
     "averageRating": 4.63,
@@ -8108,7 +8111,7 @@
     "pollResult": []
   },
   "bd1047eb76fd4fd490fcb8f668e5deda": {
-    "numProgressed": 55471,
+    "numProgressed": 55477,
     "numCompleted": 4,
     "maxRarity": 9,
     "averageRating": 4.32,
@@ -8122,14 +8125,14 @@
     "pollResult": []
   },
   "abda8262a7884126a637518b1b44a0f8": {
-    "numProgressed": 15792,
+    "numProgressed": 15794,
     "numCompleted": 0,
     "maxRarity": 95,
     "averageRating": 3.83,
     "pollResult": []
   },
   "7029f6353d7f468eb6940bbe6041474e": {
-    "numProgressed": 3033,
+    "numProgressed": 3035,
     "numCompleted": 10,
     "maxRarity": 89,
     "averageRating": null,
@@ -8157,7 +8160,7 @@
     "pollResult": null
   },
   "5c59642227a2412fb38f324d1772914e": {
-    "numProgressed": 741,
+    "numProgressed": 742,
     "numCompleted": 1,
     "maxRarity": 10,
     "averageRating": 4.12,
@@ -8176,7 +8179,7 @@
     "pollResult": []
   },
   "1760fff3738043f2870594d94487fa4b": {
-    "numProgressed": 1350,
+    "numProgressed": 1356,
     "numCompleted": 0,
     "maxRarity": 77,
     "averageRating": 4.69,
@@ -8241,7 +8244,7 @@
     "pollResult": []
   },
   "e1055bf1e5654b93a27e19e6bb86cb2a": {
-    "numProgressed": 3869,
+    "numProgressed": 3879,
     "numCompleted": 1,
     "maxRarity": 76,
     "averageRating": 4.67,
@@ -8302,7 +8305,7 @@
     "pollResult": []
   },
   "5a6d34ba28bc45d081d9311c3885feef": {
-    "numProgressed": 611803,
+    "numProgressed": 612033,
     "numCompleted": 7,
     "maxRarity": 15,
     "averageRating": 4.64,
@@ -8333,7 +8336,7 @@
       },
       {
         "id": 41,
-        "total": 154
+        "total": 155
       },
       {
         "id": 46,
@@ -8386,7 +8389,7 @@
     ]
   },
   "e4a2a414d46849f49a35c0f80df2903a": {
-    "numProgressed": 49423,
+    "numProgressed": 49481,
     "numCompleted": 4,
     "maxRarity": 77,
     "averageRating": 4.53,
@@ -8401,7 +8404,7 @@
       },
       {
         "id": 75,
-        "total": 85
+        "total": 86
       },
       {
         "id": 15,
@@ -8513,7 +8516,7 @@
     "pollResult": []
   },
   "144f9e231e2846d1a4381d9bb678f69d": {
-    "numProgressed": 215776,
+    "numProgressed": 215815,
     "numCompleted": 4,
     "maxRarity": 25,
     "averageRating": 4.43,
@@ -8581,7 +8584,7 @@
     ]
   },
   "73ce3d09e1d949e8b80f66c78c1cda50": {
-    "numProgressed": 1671,
+    "numProgressed": 1673,
     "numCompleted": 3,
     "maxRarity": 87,
     "averageRating": 4.45,
@@ -8593,8 +8596,8 @@
     ]
   },
   "9359fa123dbf4b89b7d70be316d7810c": {
-    "numProgressed": 594358,
-    "numCompleted": 496,
+    "numProgressed": 594412,
+    "numCompleted": 497,
     "maxRarity": 93,
     "averageRating": 4.51,
     "pollResult": [
@@ -8605,7 +8608,7 @@
     ]
   },
   "5f3452bade6849f4981ca2bcaaec5505": {
-    "numProgressed": 193,
+    "numProgressed": 194,
     "numCompleted": 21,
     "maxRarity": 96,
     "averageRating": null,
@@ -8638,9 +8641,9 @@
     ]
   },
   "8ee9de55298245e4bfe187dd50560f3c": {
-    "numProgressed": 17,
+    "numProgressed": 18,
     "numCompleted": 1,
-    "maxRarity": 47,
+    "maxRarity": 50,
     "averageRating": null,
     "pollResult": []
   },
@@ -8707,7 +8710,7 @@
       },
       {
         "id": 75,
-        "total": 3596
+        "total": 3601
       },
       {
         "id": 12,
@@ -8792,7 +8795,7 @@
     "pollResult": []
   },
   "dfd2530e80e4425d801913b0879be444": {
-    "numProgressed": 42935,
+    "numProgressed": 42938,
     "numCompleted": 25,
     "maxRarity": 68,
     "averageRating": 4.69,
@@ -8843,7 +8846,7 @@
     "pollResult": []
   },
   "dba7dabb038f40209c6075de144754de": {
-    "numProgressed": 2820,
+    "numProgressed": 2821,
     "numCompleted": 94,
     "maxRarity": 100,
     "averageRating": null,
