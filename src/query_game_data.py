@@ -28,7 +28,3 @@ def to_game_data(sandbox_id, verbose=True):
         game_rating = None
 
     return achievement, game_rating
-
-
-def could_arise_from_faulty_request(output):
-    return output is None
