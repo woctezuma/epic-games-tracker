@@ -14,6 +14,8 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v3
+      with:
+        ref: "data"
 
     - name: Set up Python
       uses: actions/setup-python@v3
