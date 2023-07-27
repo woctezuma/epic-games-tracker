@@ -4,6 +4,7 @@ from src.time_utils import get_current_date_as_str
 HEADERS = ["Game Slug"] + GAME_RATING_HEADERS + ACHIEVEMENT_HEADERS
 ENTRY_FIELDS = ['slug'] + GAME_RATING_FIELDS + ACHIEVEMENT_FIELDS
 PLACE_HOLDER = '---'
+PLACE_HOLDER_FOR_NUMBER = '#'
 
 
 def get_timestamp_line():
@@ -18,8 +19,7 @@ def to_table_row(row_no, str_elements):
 
 
 def get_headers_line():
-    place_holder_for_number = '#'
-    return to_table_row(place_holder_for_number, HEADERS)
+    return to_table_row(PLACE_HOLDER_FOR_NUMBER, HEADERS)
 
 
 def get_separator_line():
@@ -28,11 +28,15 @@ def get_separator_line():
     return to_table_row(place_holder, [place_holder] * num_headers)
 
 
-def format_data_as_markdown(data):
+def format_data_as_markdown(data, number_rows=False):
     lines = [get_timestamp_line(), "\n", get_headers_line(), get_separator_line()]
 
     for i, entry in enumerate(data.values(), start=1):
-        line = to_table_row(i, [str(entry[k]) for k in ENTRY_FIELDS])
+        if number_rows:
+            row_index = i
+        else:
+            row_index = PLACE_HOLDER_FOR_NUMBER
+        line = to_table_row(row_index, [str(entry[k]) for k in ENTRY_FIELDS])
 
         lines.append(line)
 
