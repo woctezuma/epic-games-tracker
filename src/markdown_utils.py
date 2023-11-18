@@ -1,4 +1,9 @@
-from src.fields import GAME_RATING_FIELDS, ACHIEVEMENT_FIELDS, GAME_RATING_HEADERS, ACHIEVEMENT_HEADERS
+from src.fields import (
+    ACHIEVEMENT_FIELDS,
+    ACHIEVEMENT_HEADERS,
+    GAME_RATING_FIELDS,
+    GAME_RATING_HEADERS,
+)
 from src.time_utils import get_current_date_as_str
 
 HEADERS = ["Game Slug"] + GAME_RATING_HEADERS + ACHIEVEMENT_HEADERS

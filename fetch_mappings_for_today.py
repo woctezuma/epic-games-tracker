@@ -4,9 +4,13 @@ from pathlib import Path
 from src.data_utils import PAGE_SLUGS_FNAME
 from src.discord_utils import post_slugs_to_discord
 from src.download_utils import download_page_slugs
-from src.json_utils import save_json, load_json
-from src.webhook_utils import WEBHOOK_KEYWORD_NEW, WEBHOOK_KEYWORD_TROPHY, WEBHOOK_KEYWORD_LATE_TROPHY
-from src.workflow_utils import update_tracked_page_mappings, update_all_page_mappings
+from src.json_utils import load_json, save_json
+from src.webhook_utils import (
+    WEBHOOK_KEYWORD_LATE_TROPHY,
+    WEBHOOK_KEYWORD_NEW,
+    WEBHOOK_KEYWORD_TROPHY,
+)
+from src.workflow_utils import update_all_page_mappings, update_tracked_page_mappings
 
 
 def main():

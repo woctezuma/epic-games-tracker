@@ -1,13 +1,20 @@
 import logging
 from pathlib import Path
 
-from src.data_filters import hide_games_with_buggy_achievements
-from src.data_filters import hide_games_missing_a_stat, hide_games_with_zero_player
-from src.data_filters import hide_games_with_inconsistent_stats
-from src.data_utils import load_tracked_page_mappings, populate_slugs, populate_rating_counts
+from src.data_filters import (
+    hide_games_missing_a_stat,
+    hide_games_with_buggy_achievements,
+    hide_games_with_inconsistent_stats,
+    hide_games_with_zero_player,
+)
+from src.data_utils import (
+    load_tracked_page_mappings,
+    populate_rating_counts,
+    populate_slugs,
+)
 from src.export_utils import write_markdown_files
 from src.fetch_utils import fetch_data_for_several_ids
-from src.json_utils import save_json, load_json
+from src.json_utils import load_json, save_json
 from src.time_utils import get_fname_for_today
 
 

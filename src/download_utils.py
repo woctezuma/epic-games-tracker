@@ -5,7 +5,7 @@ from src.page_mapping_utils import get_sandbox_id
 from src.query_achievement_support import to_achievement_support
 from src.query_page_mapping import to_page_mapping
 from src.query_store_data import to_store_data
-from src.store_data_utils import get_total_num_store_elements, get_page_slugs
+from src.store_data_utils import get_page_slugs, get_total_num_store_elements
 
 MAX_STEP_SIZE = 1000
 

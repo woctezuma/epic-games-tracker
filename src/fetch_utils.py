@@ -1,5 +1,5 @@
 from src.achievement_utils import summarize_achievement
-from src.fields import RAW_RATING_FIELDS, ACHIEVEMENT_FIELDS
+from src.fields import ACHIEVEMENT_FIELDS, RAW_RATING_FIELDS
 from src.query_game_data import to_game_data
 from src.retry_utils import has_no_achievement, has_no_rating
 from src.utils import create_dummy_dictionary

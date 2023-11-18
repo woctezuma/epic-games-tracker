@@ -1,8 +1,16 @@
-from src.data_utils import load_all_page_mappings, load_tracked_page_mappings, SANDBOX_IDS_FNAME, PAGE_MAPPINGS_FNAME
-from src.download_utils import download_achievement_support_to_filter_page_mappings, download_page_mappings
+from src.data_utils import (
+    PAGE_MAPPINGS_FNAME,
+    SANDBOX_IDS_FNAME,
+    load_all_page_mappings,
+    load_tracked_page_mappings,
+)
+from src.download_utils import (
+    download_achievement_support_to_filter_page_mappings,
+    download_page_mappings,
+)
 from src.json_utils import save_json
 from src.page_mapping_utils import filter_page_mappings_based_on_slugs
-from src.utils import sort_dict_by_key, extract_list_difference
+from src.utils import extract_list_difference, sort_dict_by_key
 
 
 def update_all_page_mappings(page_slugs, known_page_mappings=None):
