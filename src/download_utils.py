@@ -18,7 +18,11 @@ def download_page_slugs(include_dlc=False):
 
     for cursor in range(0, num_elements, MAX_STEP_SIZE):
         print(f'Cursor = {cursor}')
-        store_data = to_store_data(cursor=cursor, step=MAX_STEP_SIZE, include_dlc=include_dlc)
+        store_data = to_store_data(
+            cursor=cursor,
+            step=MAX_STEP_SIZE,
+            include_dlc=include_dlc,
+        )
         page_slugs += get_page_slugs(store_data)
 
     return page_slugs
@@ -42,7 +46,10 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
     return page_mappings
 
 
-def download_achievement_support_to_filter_page_mappings(page_mappings, known_support=None):
+def download_achievement_support_to_filter_page_mappings(
+    page_mappings,
+    known_support=None,
+):
     if known_support is None:
         known_support = {}
 

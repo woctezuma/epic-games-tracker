@@ -27,18 +27,35 @@ def write_markdown_files(data):
     sorted_data = dict(sorted(data.items(), key=lambda x: x[1]["slug"]))
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_game_slug.md")
 
-    sorted_data = dict(sorted(data.items(), key=lambda x: deal_with_none(x[1]["averageRating"]), reverse=True))
+    sorted_data = dict(
+        sorted(
+            data.items(),
+            key=lambda x: deal_with_none(x[1]["averageRating"]),
+            reverse=True,
+        ),
+    )
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_average_rating.md")
 
-    sorted_data = dict(sorted(data.items(), key=lambda x: deal_with_none(x[1]["ratingCount"]), reverse=True))
+    sorted_data = dict(
+        sorted(
+            data.items(),
+            key=lambda x: deal_with_none(x[1]["ratingCount"]),
+            reverse=True,
+        ),
+    )
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_num_raters.md")
 
-    sorted_data = dict(sorted(data.items(), key=lambda x: x[1]["numProgressed"], reverse=True))
+    sorted_data = dict(
+        sorted(data.items(), key=lambda x: x[1]["numProgressed"], reverse=True),
+    )
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_num_players.md")
 
-    sorted_data = dict(sorted(data.items(), key=lambda x: x[1]["numCompleted"], reverse=True))
+    sorted_data = dict(
+        sorted(data.items(), key=lambda x: x[1]["numCompleted"], reverse=True),
+    )
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_num_platinum_trophies.md")
 
-    sorted_data = dict(sorted(data.items(), key=lambda x: x[1]["maxRarity"], reverse=True))
+    sorted_data = dict(
+        sorted(data.items(), key=lambda x: x[1]["maxRarity"], reverse=True),
+    )
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_max_rarity.md")
-

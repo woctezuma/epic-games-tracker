@@ -1,5 +1,7 @@
 def list_all_unlock_percentages(achievement_data):
-    return [e['achievement']['rarity']['percent'] for e in achievement_data['achievements']]
+    return [
+        e['achievement']['rarity']['percent'] for e in achievement_data['achievements']
+    ]
 
 
 def compute_max_unlock_percentage(achievement_data):

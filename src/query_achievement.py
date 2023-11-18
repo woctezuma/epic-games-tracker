@@ -4,9 +4,11 @@ from src.query_utils import get_query_str_for_achievements
 
 def get_params_to_query_achievement(sandbox_id):
     query_str = "{"
-    query_str += get_query_str_for_achievements(sandbox_id,
-                                                include_num_achievements=False,
-                                                include_achievement_details=True)
+    query_str += get_query_str_for_achievements(
+        sandbox_id,
+        include_num_achievements=False,
+        include_achievement_details=True,
+    )
     query_str += "}"
 
     params = {"query": query_str}

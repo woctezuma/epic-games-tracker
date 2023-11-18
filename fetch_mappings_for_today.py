@@ -32,11 +32,16 @@ def main():
     print('Updating tracked page mappings.')
     # First, for new game slugs in order to quickly post to Discord. This should find new tracked slugs in a short time.
     new_tracked_game_slugs = update_tracked_page_mappings(new_game_slugs)
-    post_slugs_to_discord(new_tracked_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_TROPHY)
+    post_slugs_to_discord(
+        new_tracked_game_slugs,
+        webhook_keyword=WEBHOOK_KEYWORD_TROPHY,
+    )
     # Second, for all the page slugs. This is less rewarding: there are many checks... and very few new tracked slugs!
     new_tracked_game_slugs = update_tracked_page_mappings(page_slugs)
-    post_slugs_to_discord(new_tracked_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_LATE_TROPHY)
-
+    post_slugs_to_discord(
+        new_tracked_game_slugs,
+        webhook_keyword=WEBHOOK_KEYWORD_LATE_TROPHY,
+    )
 
 
 if __name__ == '__main__':

@@ -3,7 +3,11 @@ def format_params_for_query_str(sandbox_id):
     return params_str
 
 
-def get_query_str_for_achievements(sandbox_id, include_num_achievements=True, include_achievement_details=True):
+def get_query_str_for_achievements(
+    sandbox_id,
+    include_num_achievements=True,
+    include_achievement_details=True,
+):
     query_str = "Achievement {productAchievementsRecordBySandbox"
     query_str += format_params_for_query_str(sandbox_id)
     query_str += "{"

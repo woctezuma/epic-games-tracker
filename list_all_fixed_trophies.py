@@ -15,7 +15,12 @@ def display_results(date_str, game_slugs):
 
 
 def extract_date_from_fname(fname):
-    return str(fname).removeprefix(FNAME_PREFIX).removesuffix(FNAME_SUFFIX).replace(FOLDER_SEPARATOR, DATE_SEPARATOR)
+    return (
+        str(fname)
+        .removeprefix(FNAME_PREFIX)
+        .removesuffix(FNAME_SUFFIX)
+        .replace(FOLDER_SEPARATOR, DATE_SEPARATOR)
+    )
 
 
 def main():
@@ -23,7 +28,6 @@ def main():
 
     current_fname = None
     for previous_fname in reversed(all_fnames):
-
         if current_fname is not None:
             data_today = load_json(fname=current_fname)
             data_yesterday = load_json(fname=previous_fname)

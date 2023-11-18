@@ -23,4 +23,8 @@ def has_consistent_stats(v):
     has_consistent_ratings = has_consistent_average_rating(v) and has_consistent_rating_count(v)
     has_consistent_players = has_consistent_num_players(v) and has_consistent_num_platinum(v)
     has_consistent_achievements = has_consistent_max_rarity(v)
-    return has_consistent_ratings and has_consistent_players and has_consistent_achievements
+    return (
+        has_consistent_ratings
+        and has_consistent_players
+        and has_consistent_achievements
+    )

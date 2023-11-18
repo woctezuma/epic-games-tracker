@@ -46,6 +46,5 @@ def main():
         write_markdown_files(data)
 
 
-
 if __name__ == '__main__':
     main()

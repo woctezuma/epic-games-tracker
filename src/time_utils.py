@@ -23,6 +23,7 @@ def get_fname_for_specific_day(date):
     folder_name = get_folder_name_for_specific_day(date)
     return f"{folder_name}/{date.day:02}.json"
 
+
 def get_fname_for_yesterday():
     date = get_current_date() - timedelta(days=1)
     return get_fname_for_specific_day(date)
