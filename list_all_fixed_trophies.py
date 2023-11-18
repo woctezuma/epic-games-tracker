@@ -15,7 +15,7 @@ def display_results(date_str, game_slugs):
 
 
 def extract_date_from_fname(fname):
-    return fname.removeprefix(FNAME_PREFIX).removesuffix(FNAME_SUFFIX).replace(FOLDER_SEPARATOR, DATE_SEPARATOR)
+    return str(fname).removeprefix(FNAME_PREFIX).removesuffix(FNAME_SUFFIX).replace(FOLDER_SEPARATOR, DATE_SEPARATOR)
 
 
 def main():

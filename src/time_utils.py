@@ -1,9 +1,9 @@
-import glob
 from datetime import datetime, timedelta
+from pathlib import Path
 
 from src.data_utils import DATA_FOLDER_NAME
 
-DATA_FILE_NAME_FORMAT = f'{DATA_FOLDER_NAME}/20*/*/*.json'
+DATA_FILE_NAME_FORMAT = '20*/*/*.json'
 
 
 def get_current_date():
@@ -34,7 +34,7 @@ def get_fname_for_today():
 
 
 def list_data_file_names():
-    return sorted(glob.glob(DATA_FILE_NAME_FORMAT))
+    return sorted(Path(DATA_FOLDER_NAME).glob(DATA_FILE_NAME_FORMAT))
 
 
 def get_fname_for_the_most_recent_of_past_days():
