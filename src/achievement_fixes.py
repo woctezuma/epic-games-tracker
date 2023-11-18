@@ -6,10 +6,12 @@ def has_broken_achievements(data, sandbox_id):
 
 
 def list_sandbox_ids_with_fixed_achievements(data_yesterday, data_today):
-    sandbox_ids = []
-    for sandbox_id in set(data_yesterday).intersection(data_today):
-        if has_broken_achievements(data_yesterday, sandbox_id) and not has_broken_achievements(data_today, sandbox_id):
-            sandbox_ids.append(sandbox_id)
+    sandbox_ids = [
+        sandbox_id
+        for sandbox_id in set(data_yesterday).intersection(data_today)
+        if has_broken_achievements(data_yesterday, sandbox_id)
+        and not has_broken_achievements(data_today, sandbox_id)
+    ]
 
     return sandbox_ids
 
