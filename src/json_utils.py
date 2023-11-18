@@ -2,7 +2,7 @@ import json
 
 
 def load_json(fname):
-    with open(fname, 'r', encoding='utf8') as f:
+    with open(fname, encoding='utf8') as f:
         data = json.load(f)
     return data
 
