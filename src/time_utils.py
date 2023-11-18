@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from src.data_utils import DATA_FOLDER_NAME
@@ -7,7 +7,7 @@ DATA_FILE_NAME_FORMAT = '20*/*/*.json'
 
 
 def get_current_date():
-    return datetime.now()
+    return datetime.now(tz=UTC)
 
 
 def get_current_date_as_str():
