@@ -2,10 +2,7 @@ from src.api import send_post_request_to_api
 
 
 def get_params_to_query_store_data(cursor, step, include_dlc=False):
-    if include_dlc:
-        category_str = ""
-    else:
-        category_str = 'category: "games/edition/base", '
+    category_str = "" if include_dlc else 'category: "games/edition/base", '
 
     query_str = "{Catalog {searchStore"
     query_str += f'({category_str}start: {cursor}, count: {step}) '

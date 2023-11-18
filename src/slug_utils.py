@@ -22,10 +22,7 @@ def filter_out_dummy_mappings(mappings):
 
 def get_namespace_slug(store_element):
     namespace_catalog = store_element.get("catalogNs")
-    if namespace_catalog is None:
-        mappings = None
-    else:
-        mappings = namespace_catalog.get("mappings")
+    mappings = None if namespace_catalog is None else namespace_catalog.get('mappings')
     if mappings is not None and len(mappings) > 0:
         if len(mappings) > 1:
             mappings = filter_out_dummy_mappings(mappings)

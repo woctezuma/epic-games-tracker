@@ -5,10 +5,7 @@ def list_all_unlock_percentages(achievement_data):
 def compute_max_unlock_percentage(achievement_data):
     rarity_list = list_all_unlock_percentages(achievement_data)
 
-    if len(rarity_list) > 0:
-        rarity = max(rarity_list)
-    else:
-        rarity = None
+    rarity = max(rarity_list) if len(rarity_list) > 0 else None
 
     return rarity
 

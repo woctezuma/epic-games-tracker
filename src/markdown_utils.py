@@ -37,10 +37,7 @@ def format_data_as_markdown(data, number_rows=False):
     lines = [get_timestamp_line(), "\n", get_headers_line(), get_separator_line()]
 
     for i, entry in enumerate(data.values(), start=1):
-        if number_rows:
-            row_index = i
-        else:
-            row_index = PLACE_HOLDER_FOR_NUMBER
+        row_index = i if number_rows else PLACE_HOLDER_FOR_NUMBER
         line = to_table_row(row_index, [str(entry[k]) for k in ENTRY_FIELDS])
 
         lines.append(line)
