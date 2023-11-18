@@ -6,8 +6,8 @@ from src.fields import (
 )
 from src.time_utils import get_current_date_as_str
 
-HEADERS = ["Game Slug"] + GAME_RATING_HEADERS + ACHIEVEMENT_HEADERS
-ENTRY_FIELDS = ['slug'] + GAME_RATING_FIELDS + ACHIEVEMENT_FIELDS
+HEADERS = ["Game Slug", *GAME_RATING_HEADERS, *ACHIEVEMENT_HEADERS]
+ENTRY_FIELDS = ["slug", *GAME_RATING_FIELDS, *ACHIEVEMENT_FIELDS]
 PLACE_HOLDER = '---'
 PLACE_HOLDER_FOR_NUMBER = '#'
 
