@@ -6,7 +6,7 @@ from src.utils import create_dummy_dictionary
 
 
 def fetch_data_for_single_id(sandbox_id, verbose=True):
-    data = dict()
+    data = {}
 
     achievement, game_rating = to_game_data(sandbox_id)
 

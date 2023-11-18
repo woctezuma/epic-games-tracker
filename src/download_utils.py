@@ -26,7 +26,7 @@ def download_page_slugs(include_dlc=False):
 
 def download_page_mappings(page_slugs, known_page_mappings=None):
     if known_page_mappings is None:
-        known_page_mappings = dict()
+        known_page_mappings = {}
 
     page_mappings = copy.deepcopy(known_page_mappings)
     num_slugs = len(page_slugs)
@@ -44,12 +44,12 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
 
 def download_achievement_support_to_filter_page_mappings(page_mappings, known_support=None):
     if known_support is None:
-        known_support = dict()
+        known_support = {}
 
     support = copy.deepcopy(known_support)
     num_slugs = len(page_mappings)
 
-    achievement_support_dict = dict()
+    achievement_support_dict = {}
 
     for i, slug in enumerate(sorted(page_mappings, key=lambda x: (len(x), x)), start=1):
         print(f'[{i}/{num_slugs}] {slug}')
