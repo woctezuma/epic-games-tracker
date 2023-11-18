@@ -1,10 +1,12 @@
+from pathlib import Path
+
 from src.markdown_utils import format_data_as_markdown
 
 OUTPUT_FOLDER = 'docs'
 
 
 def write_lines_to_disk(lines, fname):
-    with open(fname, 'w', encoding='utf8') as f:
+    with Path(fname).open('w', encoding='utf8') as f:
         for line in lines:
             f.write(f"{line}\n")
 
