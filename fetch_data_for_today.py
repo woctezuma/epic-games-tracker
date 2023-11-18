@@ -45,7 +45,6 @@ def main():
         data = hide_games_with_buggy_achievements(data)
         write_markdown_files(data)
 
-    return
 
 
 if __name__ == '__main__':

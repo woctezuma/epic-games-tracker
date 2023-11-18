@@ -7,13 +7,11 @@ def write_lines_to_disk(lines, fname):
     with open(fname, 'w', encoding='utf8') as f:
         for line in lines:
             f.write(f"{line}\n")
-    return
 
 
 def write_data_to_disk(data, fname):
     lines = format_data_as_markdown(data)
     write_lines_to_disk(lines, fname)
-    return
 
 
 def deal_with_none(v, min_value=0):
@@ -42,4 +40,3 @@ def write_markdown_files(data):
     sorted_data = dict(sorted(data.items(), key=lambda x: x[1]["maxRarity"], reverse=True))
     write_data_to_disk(sorted_data, f"{OUTPUT_FOLDER}/by_max_rarity.md")
 
-    return

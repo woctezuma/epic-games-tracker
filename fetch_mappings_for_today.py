@@ -37,7 +37,6 @@ def main():
     new_tracked_game_slugs = update_tracked_page_mappings(page_slugs)
     post_slugs_to_discord(new_tracked_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_LATE_TROPHY)
 
-    return
 
 
 if __name__ == '__main__':

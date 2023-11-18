@@ -7,7 +7,6 @@ def main():
     post_git_diff_to_discord_using_keyword(fname=PAGE_MAPPINGS_FNAME, webhook_keyword=WEBHOOK_KEYWORD_NEW)
     post_git_diff_to_discord_using_keyword(fname=SANDBOX_IDS_FNAME, webhook_keyword=WEBHOOK_KEYWORD_TROPHY)
 
-    return
 
 
 if __name__ == '__main__':
