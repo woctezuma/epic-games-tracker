@@ -16,7 +16,7 @@ def get_webhook_id(webhook_keyword='id'):
     return webhook_id
 
 
-def get_webhook_url(webhook_id):
+def get_webhook_url(webhook_id) -> str:
     return f"https://discord.com/api/webhooks/{webhook_id}"
 
 

@@ -18,7 +18,7 @@ from src.json_utils import load_json, save_json
 from src.time_utils import get_fname_for_today
 
 
-def main():
+def main() -> None:
     logging.getLogger('backoff').addHandler(logging.StreamHandler())
 
     output_fname = get_fname_for_today()

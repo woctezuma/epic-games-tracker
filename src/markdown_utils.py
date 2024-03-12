@@ -12,7 +12,7 @@ PLACE_HOLDER = '---'
 PLACE_HOLDER_FOR_NUMBER = '#'
 
 
-def get_timestamp_line():
+def get_timestamp_line() -> str:
     date_as_str = get_current_date_as_str()
     return f"Last updated on {date_as_str}."
 

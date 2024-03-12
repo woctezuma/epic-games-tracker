@@ -9,7 +9,7 @@ from src.time_utils import (
 from src.webhook_utils import WEBHOOK_KEYWORD_FIXED_TROPHY
 
 
-def main():
+def main() -> None:
     try:
         data_yesterday = load_json(fname=get_fname_for_yesterday())
     except FileNotFoundError:

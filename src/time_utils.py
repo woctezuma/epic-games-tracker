@@ -15,11 +15,11 @@ def get_current_date_as_str():
     return str(date)[:16]
 
 
-def get_folder_name_for_specific_day(date):
+def get_folder_name_for_specific_day(date) -> str:
     return f"{DATA_FOLDER_NAME}/{date.year}/{date.month:02}"
 
 
-def get_fname_for_specific_day(date):
+def get_fname_for_specific_day(date) -> str:
     folder_name = get_folder_name_for_specific_day(date)
     return f"{folder_name}/{date.day:02}.json"
 

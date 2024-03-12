@@ -13,7 +13,7 @@ from src.webhook_utils import (
 from src.workflow_utils import update_all_page_mappings, update_tracked_page_mappings
 
 
-def main():
+def main() -> None:
     logging.getLogger('backoff').addHandler(logging.StreamHandler())
 
     force_update = True

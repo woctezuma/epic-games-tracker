@@ -8,7 +8,7 @@ FOLDER_SEPARATOR = "/"
 DATE_SEPARATOR = "-"
 
 
-def display_results(date_str, game_slugs):
+def display_results(date_str, game_slugs) -> None:
     print(date_str)
     print('- ' + '\n- '.join(sorted(game_slugs)))
     print()
@@ -23,7 +23,7 @@ def extract_date_from_fname(fname):
     )
 
 
-def main():
+def main() -> None:
     all_fnames = list_data_file_names()
 
     current_fname = None
