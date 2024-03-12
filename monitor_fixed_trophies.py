@@ -8,6 +8,8 @@ from src.time_utils import (
 )
 from src.webhook_utils import WEBHOOK_KEYWORD_FIXED_TROPHY
 
+from src.git_utils import data_is_new
+
 
 def main() -> None:
     try:
@@ -18,7 +20,8 @@ def main() -> None:
 
     game_slugs = list_slugs_with_fixed_achievements(data_yesterday, data_today)
 
-    post_slugs_to_discord(game_slugs, webhook_keyword=WEBHOOK_KEYWORD_FIXED_TROPHY)
+    if data_is_new():
+        post_slugs_to_discord(game_slugs, webhook_keyword=WEBHOOK_KEYWORD_FIXED_TROPHY)
 
 
 if __name__ == '__main__':
