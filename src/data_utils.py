@@ -2,10 +2,11 @@ from src.game_rating_utils import compute_rating_count
 from src.json_utils import load_json_failsafe
 
 DATA_FOLDER_NAME = 'data'
-SANDBOX_IDS_FNAME = f'{DATA_FOLDER_NAME}/sandbox_ids.json'
-PAGE_MAPPINGS_FNAME = f'{DATA_FOLDER_NAME}/page_mappings.json'
-PAGE_SLUGS_FNAME = f'{DATA_FOLDER_NAME}/page_slugs.json'
-DISCORD_WEBHOOK_FNAME = f'{DATA_FOLDER_NAME}/discord_webhook.json'
+JSON_SUFFIX = 'json'
+SANDBOX_IDS_FNAME = f'{DATA_FOLDER_NAME}/sandbox_ids.{JSON_SUFFIX}'
+PAGE_MAPPINGS_FNAME = f'{DATA_FOLDER_NAME}/page_mappings.{JSON_SUFFIX}'
+PAGE_SLUGS_FNAME = f'{DATA_FOLDER_NAME}/page_slugs.{JSON_SUFFIX}'
+DISCORD_WEBHOOK_FNAME = f'{DATA_FOLDER_NAME}/discord_webhook.{JSON_SUFFIX}'
 
 
 def load_tracked_page_mappings():

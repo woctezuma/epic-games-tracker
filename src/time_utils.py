@@ -1,9 +1,9 @@
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
-from src.data_utils import DATA_FOLDER_NAME
+from src.data_utils import DATA_FOLDER_NAME, JSON_SUFFIX
 
-DATA_FILE_NAME_FORMAT = '20*/*/*.json'
+DATA_FILE_NAME_FORMAT = f'20*/*/*.{JSON_SUFFIX}'
 
 
 def get_current_date():
@@ -21,7 +21,7 @@ def get_folder_name_for_specific_day(date) -> str:
 
 def get_fname_for_specific_day(date) -> str:
     folder_name = get_folder_name_for_specific_day(date)
-    return f"{folder_name}/{date.day:02}.json"
+    return f"{folder_name}/{date.day:02}.{JSON_SUFFIX}"
 
 
 def get_fname_for_yesterday():
