@@ -12,15 +12,15 @@ from src.git_utils import data_is_new
 
 
 def main() -> None:
-    try:
-        data_yesterday = load_json(fname=get_fname_for_yesterday())
-    except FileNotFoundError:
-        data_yesterday = load_json_failsafe(fname=get_fname_for_the_most_recent_of_past_days())
-    data_today = load_json(fname=get_fname_for_today())
-
-    game_slugs = list_slugs_with_fixed_achievements(data_yesterday, data_today)
-
     if data_is_new():
+        try:
+            data_yesterday = load_json(fname=get_fname_for_yesterday())
+        except FileNotFoundError:
+            data_yesterday = load_json_failsafe(fname=get_fname_for_the_most_recent_of_past_days())
+        data_today = load_json(fname=get_fname_for_today())
+
+        game_slugs = list_slugs_with_fixed_achievements(data_yesterday, data_today)
+
         post_slugs_to_discord(game_slugs, webhook_keyword=WEBHOOK_KEYWORD_FIXED_TROPHY)
 
 
