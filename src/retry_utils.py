@@ -7,7 +7,11 @@ def has_buggy_achievements(achievement):
 
 
 def has_no_achievement(achievement):
-    return has_buggy_achievement_sets(achievement) or has_buggy_achievements(achievement)
+    return (
+        achievement is None
+        or has_buggy_achievement_sets(achievement)
+        or has_buggy_achievements(achievement)
+    )
 
 
 def has_no_rating(game_rating):
