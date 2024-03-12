@@ -13,6 +13,11 @@ def bytes_to_str(data_as_bytes):
     return data_as_bytes.decode()
 
 
+def git_status():
+    args = ["git", "status"]
+    return run_subprocess(args)
+
+
 def git_diff(file_path):
     args = ["git", "diff", file_path]
     return run_subprocess(args)
