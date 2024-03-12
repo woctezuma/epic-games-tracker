@@ -1,6 +1,7 @@
 import backoff
 import requests
 
+TIMEOUT_IN_SECONDS = 10
 GRAPHQL_API_URL = "https://graphql.epicgames.com/graphql"
 
 
@@ -11,7 +12,7 @@ def send_post_request_to_api(json_data, verbose=True):
 
 @backoff.on_predicate(backoff.expo, lambda r: not r.ok, max_tries=3)
 def to_response(json_data):
-    return requests.post(GRAPHQL_API_URL, json=json_data)
+    return requests.post(GRAPHQL_API_URL, json=json_data, timeout=TIMEOUT_IN_SECONDS)
 
 
 def to_data(response, verbose=True):

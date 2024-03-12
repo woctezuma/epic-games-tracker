@@ -1,5 +1,6 @@
 import requests
 
+from src.api import TIMEOUT_IN_SECONDS
 from src.data_utils import load_discord_webhook
 from src.git_utils import extract_new_games, git_diff
 from src.webhook_utils import to_discord_header
@@ -26,7 +27,9 @@ def post_message_to_discord(message, webhook_id):
     else:
         discord_url = get_webhook_url(webhook_id)
         json_data = {"content": message}
-        response = requests.post(url=discord_url, json=json_data)
+        response = requests.post(
+            url=discord_url, json=json_data, timeout=TIMEOUT_IN_SECONDS
+        )
 
     return response
 
