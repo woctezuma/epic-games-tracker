@@ -28,7 +28,7 @@ Alternatively:
 -   either run every day [`epic_games_tracker.ipynb`][colab-notebook]
 [![Open In Colab][colab-badge]][colab-notebook]
 
--   or schedule `update.bat` for daily runs.
+-   or schedule `update.sh` for daily runs.
 
 To have a retrospective look at days on which some achievements were fixed, run:
 ```bash
