@@ -9,15 +9,15 @@ DISCORD_WEBHOOK_FNAME = f'{DATA_FOLDER_NAME}/discord_webhook.json'
 
 
 def load_tracked_page_mappings():
-    return load_json_failsafe(f"{SANDBOX_IDS_FNAME}")
+    return load_json_failsafe(SANDBOX_IDS_FNAME)
 
 
 def load_all_page_mappings():
-    return load_json_failsafe(f"{PAGE_MAPPINGS_FNAME}")
+    return load_json_failsafe(PAGE_MAPPINGS_FNAME)
 
 
 def load_discord_webhook():
-    return load_json_failsafe(f"{DISCORD_WEBHOOK_FNAME}")
+    return load_json_failsafe(DISCORD_WEBHOOK_FNAME)
 
 
 def populate_slugs(data):
