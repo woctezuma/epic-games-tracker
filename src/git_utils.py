@@ -1,7 +1,10 @@
 import subprocess
 
+from src.data_utils import DATA_FOLDER_NAME
+from src.time_utils import YEAR_PREFIX
 from src.utils import extract_list_difference
 
+DATA_NAME_PATTERN = f'{DATA_FOLDER_NAME}/{YEAR_PREFIX}'
 LINE_SEPARATOR = '\n'
 ADDITION_PREFIX = '+ '
 DELETION_PREFIX = '- '
@@ -32,6 +35,11 @@ def run_subprocess(args):
 
 def filter_status(stdout, pattern):
     return [line for line in stdout.split(LINE_SEPARATOR) if pattern in line]
+
+
+def data_is_new():
+    stdout, stderr = git_status()
+    return filter_status(stdout, DATA_NAME_PATTERN)
 
 
 def filter_diff(stdout, prefix):
