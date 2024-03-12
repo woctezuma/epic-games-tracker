@@ -20,6 +20,6 @@ def to_store_data(cursor, step, include_dlc=False, verbose=True):
     data = send_post_request_to_api(params, verbose=verbose)
     try:
         store_data = data["data"]["Catalog"]["searchStore"]
-    except (TypeError, KeyError) as e:
+    except (TypeError, KeyError):
         store_data = None
     return store_data

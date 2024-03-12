@@ -1,7 +1,7 @@
 def get_num_achievements(achievement_data):
     try:
         num_achievements = achievement_data["totalAchievements"]
-    except (TypeError, KeyError) as e:
+    except (TypeError, KeyError):
         num_achievements = None
     return num_achievements
 

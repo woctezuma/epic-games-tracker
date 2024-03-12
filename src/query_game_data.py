@@ -19,12 +19,12 @@ def to_game_data(sandbox_id, verbose=True):
 
     try:
         achievement = data["data"]["Achievement"]["productAchievementsRecordBySandbox"]
-    except (TypeError, KeyError) as e:
+    except (TypeError, KeyError):
         achievement = None
 
     try:
         game_rating = data["data"]["RatingsPolls"]["getProductResult"]
-    except (TypeError, KeyError) as e:
+    except (TypeError, KeyError):
         game_rating = None
 
     return achievement, game_rating

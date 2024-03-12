@@ -21,6 +21,6 @@ def to_achievement(sandbox_id, verbose=True):
     data = send_post_request_to_api(params, verbose=verbose)
     try:
         achievement = data["data"]["Achievement"]["productAchievementsRecordBySandbox"]
-    except (TypeError, KeyError) as e:
+    except (TypeError, KeyError):
         achievement = None
     return achievement
