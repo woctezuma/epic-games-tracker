@@ -3,7 +3,8 @@ from pathlib import Path
 
 from src.data_utils import DATA_FOLDER_NAME, JSON_SUFFIX
 
-DATA_FILE_NAME_FORMAT = f'20*/*/*.{JSON_SUFFIX}'
+YEAR_PREFIX = '20'
+DATA_FILE_NAME_FORMAT = f'{YEAR_PREFIX}*/*/*.{JSON_SUFFIX}'
 
 
 def get_current_date():
