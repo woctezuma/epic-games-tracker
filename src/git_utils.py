@@ -30,6 +30,10 @@ def run_subprocess(args):
     return stdout, stderr
 
 
+def filter_status(stdout, pattern):
+    return [line for line in stdout.split(LINE_SEPARATOR) if pattern in line]
+
+
 def filter_diff(stdout, prefix):
     return [line for line in stdout.split(LINE_SEPARATOR) if line.startswith(prefix)]
 
