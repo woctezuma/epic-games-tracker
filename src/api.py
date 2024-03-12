@@ -17,12 +17,7 @@ def to_response(json_data):
 
 def to_data(response, verbose=True):
     if response.ok:
-        try:
-            data = response.json()
-        except requests.exceptions.JSONDecodeError:
-            data = None
-            if verbose:
-                print(f"JSONDecodeError despite status code = {response.status_code}")
+        data = response.json()
     else:
         data = None
         if verbose:
