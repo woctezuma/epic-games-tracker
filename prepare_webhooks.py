@@ -1,10 +1,10 @@
 import os
 
-from src.data_utils import JSON_SUFFIX
+from src.data_utils import DATA_FOLDER_NAME, JSON_SUFFIX
 from src.json_utils import save_json
 
 TARGET_PREFIX = "DISCORD_"
-WEBHOOK_FNAME = f"data/discord_webhook.{JSON_SUFFIX}"
+WEBHOOK_FNAME = f"{DATA_FOLDER_NAME}/discord_webhook.{JSON_SUFFIX}"
 
 
 def get_environment():
