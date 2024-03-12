@@ -8,11 +8,11 @@ from src.time_utils import (
 )
 from src.webhook_utils import WEBHOOK_KEYWORD_FIXED_TROPHY
 
-from src.git_utils import data_is_new
+from src.git_utils import daily_data_has_just_been_fetched
 
 
 def main() -> None:
-    if data_is_new():
+    if daily_data_has_just_been_fetched():
         try:
             data_yesterday = load_json(fname=get_fname_for_yesterday())
         except FileNotFoundError:

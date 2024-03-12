@@ -37,7 +37,7 @@ def filter_status(stdout, pattern):
     return [line for line in stdout.split(LINE_SEPARATOR) if pattern in line]
 
 
-def data_is_new():
+def daily_data_has_just_been_fetched():
     stdout, stderr = git_status()
     return filter_status(stdout, DATA_NAME_PATTERN)
 
