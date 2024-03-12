@@ -1,5 +1,8 @@
+import operator
+
+
 def sort_dict_by_key(d):
-    return dict(sorted(d.items(), key=lambda x: x[0]))
+    return dict(sorted(d.items(), key=operator.itemgetter(0)))
 
 
 def extract_list_difference(new_list, old_list):

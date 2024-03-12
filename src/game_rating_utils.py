@@ -1,5 +1,6 @@
-def get_poll_results(data_element):
-    return data_element['pollResult']
+import operator
+
+get_poll_results = operator.itemgetter('pollResult')
 
 
 def get_poll_totals(data_element):

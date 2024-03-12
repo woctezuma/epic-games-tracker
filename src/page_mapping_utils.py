@@ -1,5 +1,6 @@
-def get_sandbox_id(mapping_data):
-    return mapping_data["sandboxId"]
+import operator
+
+get_sandbox_id = operator.itemgetter('sandboxId')
 
 
 def filter_page_mappings_based_on_slugs(page_mappings, page_slugs):

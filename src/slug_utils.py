@@ -1,3 +1,5 @@
+import operator
+
 DUMMY_SUFFIX = '/home'
 DUMMY_PAGE_SLUG_SUFFIXES = ["-bundle", "--premium-edition"]
 
@@ -40,8 +42,7 @@ def get_product_slug(store_element):
     return product_slug
 
 
-def get_url_slug(store_element):
-    return store_element["urlSlug"]
+get_url_slug = operator.itemgetter('urlSlug')
 
 
 def to_slug(store_element):
