@@ -1,5 +1,9 @@
+MIN_NUM_STARS = 1
+MAX_NUM_STARS = 5
+MAX_PERCENTAGE = 100
+
 def has_consistent_average_rating(v):
-    return v['averageRating'] is not None and 1 <= v['averageRating'] <= 5
+    return v['averageRating'] is not None and MIN_NUM_STARS <= v['averageRating'] <= MAX_NUM_STARS
 
 
 def has_consistent_rating_count(v):
@@ -16,7 +20,7 @@ def has_consistent_num_platinum(v):
 
 
 def has_consistent_max_rarity(v):
-    return v['maxRarity'] is not None and 0 <= v['maxRarity'] <= 100
+    return v['maxRarity'] is not None and 0 <= v['maxRarity'] <= MAX_PERCENTAGE
 
 
 def has_consistent_stats(v):
