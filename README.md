@@ -4,6 +4,11 @@ This repository contains Python code to track the numbers of players and ratings
 
 ![Illustration cover][img-cover]
 
+## Disclaimer
+
+> [!Note]
+> As of January 22, 2025, the leak is plugged: `numProgressed` and `numCompleted` cannot be directly fetched from Epic Games anymore.
+
 ## Requirements
 
 -   Install the latest version of [Python 3.X][python-download-url].
