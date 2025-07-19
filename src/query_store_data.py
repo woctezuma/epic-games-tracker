@@ -1,3 +1,5 @@
+import cloudscraper
+
 from src.api import send_post_request_to_api
 
 
@@ -15,9 +17,12 @@ def get_params_to_query_store_data(cursor, step, include_dlc=False):
     return params
 
 
-def to_store_data(cursor, step, include_dlc=False, verbose=True):
+def to_store_data(cursor, step, scraper: cloudscraper.CloudScraper | None = None, *, include_dlc=False, verbose=True):
+    if scraper is None:
+        scraper = cloudscraper.create_scraper()
+
     params = get_params_to_query_store_data(cursor, step, include_dlc)
-    data = send_post_request_to_api(params, verbose=verbose)
+    data = send_post_request_to_api(params, scraper=scraper, verbose=verbose)
     try:
         store_data = data["data"]["Catalog"]["searchStore"]
     except (TypeError, KeyError):
