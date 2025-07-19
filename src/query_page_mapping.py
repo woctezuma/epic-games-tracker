@@ -1,3 +1,5 @@
+import cloudscraper
+
 from src.api import send_post_request_to_api
 
 
@@ -13,9 +15,12 @@ def get_params_to_query_page_mapping(page_slug):
     return params
 
 
-def to_page_mapping(page_slug, verbose=True):
+def to_page_mapping(page_slug, scraper: cloudscraper.CloudScraper | None = None, *, verbose=True):
+    if scraper is None:
+        scraper = cloudscraper.create_scraper()
+
     params = get_params_to_query_page_mapping(page_slug)
-    data = send_post_request_to_api(params, verbose=verbose)
+    data = send_post_request_to_api(params, scraper=scraper, verbose=verbose)
     try:
         store_data = data["data"]["StorePageMapping"]["mapping"]
     except (TypeError, KeyError):
