@@ -8,7 +8,7 @@ from src.query_page_mapping import to_page_mapping
 from src.query_store_data import to_store_data
 from src.store_data_utils import get_page_slugs, get_total_num_store_elements
 
-MAX_STEP_SIZE = 1000
+MAX_STEP_SIZE = 40
 
 
 def download_page_slugs(include_dlc=False):
