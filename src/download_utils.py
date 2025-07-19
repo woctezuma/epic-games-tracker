@@ -36,6 +36,8 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
     if known_page_mappings is None:
         known_page_mappings = {}
 
+    scraper = cloudscraper.create_scraper()
+
     page_mappings = copy.deepcopy(known_page_mappings)
     num_slugs = len(page_slugs)
 
@@ -43,7 +45,7 @@ def download_page_mappings(page_slugs, known_page_mappings=None):
         print(f'[{i}/{num_slugs}] {slug}')
 
         if slug not in page_mappings:
-            mapping_data = to_page_mapping(slug)
+            mapping_data = to_page_mapping(slug, scraper = scraper)
             if mapping_data is not None:
                 page_mappings[slug] = get_sandbox_id(mapping_data)
 
