@@ -1,4 +1,5 @@
 import copy
+import cloudscraper
 
 from src.achievement_support_utils import supports_achievements
 from src.page_mapping_utils import get_sandbox_id
@@ -11,7 +12,9 @@ MAX_STEP_SIZE = 1000
 
 
 def download_page_slugs(include_dlc=False):
-    dummy_store_data = to_store_data(cursor=0, step=1, include_dlc=include_dlc)
+    scraper = cloudscraper.create_scraper()
+
+    dummy_store_data = to_store_data(cursor=0, step=1, scraper=scraper, include_dlc=include_dlc)
     num_elements = get_total_num_store_elements(dummy_store_data)
 
     page_slugs = []
@@ -21,6 +24,7 @@ def download_page_slugs(include_dlc=False):
         store_data = to_store_data(
             cursor=cursor,
             step=MAX_STEP_SIZE,
+            scraper = scraper,
             include_dlc=include_dlc,
         )
         page_slugs += get_page_slugs(store_data)
