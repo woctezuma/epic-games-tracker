@@ -5,8 +5,9 @@ TIMEOUT_IN_SECONDS = 10
 GRAPHQL_API_URL = "https://store.epicgames.com/graphql"
 
 
-def send_post_request_to_api(json_data, verbose=True):
-    scraper = cloudscraper.create_scraper()
+def send_post_request_to_api(json_data, scraper: cloudscraper.CloudScraper | None = None, *, verbose=True):
+    if scraper is None:
+        scraper = cloudscraper.create_scraper()
     r = to_response(json_data, scraper=scraper)
     return to_data(r, verbose=verbose)
 
