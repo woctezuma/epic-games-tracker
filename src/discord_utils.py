@@ -6,6 +6,15 @@ from src.git_utils import extract_new_games, git_diff
 from src.webhook_utils import to_discord_header
 
 BULLET_POINT_SEPARATOR = "\n- "
+STORE_URL = "https://epicgames.com/p/"
+
+
+def to_hyperlink(game_slug: str) -> str:
+    return f"[`{game_slug}`]({STORE_URL}{game_slug})"
+
+
+def to_hyperlinks(game_slugs: list[str]) -> list[str]:
+    return [to_hyperlink(game_slug) for game_slug in game_slugs if game_slug]
 
 
 def get_webhook_id(webhook_keyword='id'):
