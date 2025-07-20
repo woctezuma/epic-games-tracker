@@ -73,11 +73,11 @@ def post_git_diff_to_discord_using_keyword(fname, webhook_keyword):
     return post_git_diff_to_discord(fname, header, webhook_id=webhook_id)
 
 
-def post_slugs_to_discord(game_slugs, webhook_keyword):
+def post_slugs_to_discord(game_slugs, webhook_keyword, *, turn_into_hyperlinks: bool = False):
     header = to_discord_header(webhook_keyword)
     webhook_id = get_webhook_id(webhook_keyword)
 
-    message = format_discord_message(game_slugs, header=header)
+    message = format_discord_message(game_slugs, header=header, turn_into_hyperlinks=turn_into_hyperlinks)
     response = post_message_to_discord(message, webhook_id=webhook_id)
 
     return response
