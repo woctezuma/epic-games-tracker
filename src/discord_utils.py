@@ -43,7 +43,9 @@ def post_message_to_discord(message, webhook_id):
     return response
 
 
-def format_discord_message(games, header=""):
+def format_discord_message(games, header="", *, turn_into_hyperlinks: bool = False):
+    if turn_into_hyperlinks:
+        games = to_hyperlinks(games)
     if len(games) > 0:
         lines = [header, *sorted(games)]
         message = BULLET_POINT_SEPARATOR.join(lines)
