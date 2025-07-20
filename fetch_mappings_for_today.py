@@ -32,7 +32,7 @@ def main() -> None:
 
         print('Updating all page mappings.')
         new_game_slugs = update_all_page_mappings(page_slugs)
-        post_slugs_to_discord(new_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_NEW)
+        post_slugs_to_discord(new_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_NEW, turn_into_hyperlinks=True)
 
         print('Updating tracked page mappings.')
         # First, for new game slugs in order to quickly post to Discord. This should find new tracked slugs in a short time.
