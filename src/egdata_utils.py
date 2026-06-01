@@ -2,6 +2,10 @@ from urllib.parse import quote
 
 import requests
 
+from src.api import TIMEOUT_IN_SECONDS
+
+EGDATA_API_URL = 'https://api.egdata.app'
+REGEN_ENDPOINT = '/offers/regen/'
 
 
 def trigger_regen_for_slugs(slugs: list[str]) -> None:
@@ -10,7 +14,8 @@ def trigger_regen_for_slugs(slugs: list[str]) -> None:
         encoded_slug = quote(slug, safe='')
         try:
             response = requests.put(
-                f'https://api.egdata.app/offers/regen/{encoded_slug}', timeout=10
+                f'{EGDATA_API_URL}{REGEN_ENDPOINT}{encoded_slug}',
+                timeout=TIMEOUT_IN_SECONDS,
             )
             response.raise_for_status()
             print(f'Triggered regen for: {slug}')
