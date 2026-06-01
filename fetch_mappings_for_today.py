@@ -11,6 +11,7 @@ from src.webhook_utils import (
     WEBHOOK_KEYWORD_NEW,
     WEBHOOK_KEYWORD_TROPHY,
 )
+from src.egdata_utils import trigger_regen_for_slugs
 from src.workflow_utils import update_all_page_mappings, update_tracked_page_mappings
 
 
@@ -33,6 +34,7 @@ def main() -> None:
         print('Updating all page mappings.')
         new_game_slugs = update_all_page_mappings(page_slugs)
         post_slugs_to_discord(new_game_slugs, webhook_keyword=WEBHOOK_KEYWORD_NEW, turn_into_hyperlinks=True)
+        trigger_regen_for_slugs(new_game_slugs)
 
 
 if __name__ == '__main__':
