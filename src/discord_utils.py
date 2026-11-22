@@ -7,6 +7,7 @@ from src.webhook_utils import to_discord_header
 
 BULLET_POINT_SEPARATOR = "\n- "
 STORE_URL = "https://epicgames.com/p/"
+DISCORD_LENGTH_THRESHOLD = 2000
 
 
 def to_hyperlink(game_slug: str) -> str:
@@ -79,5 +80,14 @@ def post_slugs_to_discord(game_slugs, webhook_keyword, *, turn_into_hyperlinks: 
 
     message = format_discord_message(game_slugs, header=header, turn_into_hyperlinks=turn_into_hyperlinks)
     response = post_message_to_discord(message, webhook_id=webhook_id)
+
+    if len(message) > DISCORD_LENGTH_THRESHOLD:
+        n = len(game_slugs) // 2
+        post_slugs_to_discord(
+            game_slugs[:n], webhook_keyword, turn_into_hyperlinks=turn_into_hyperlinks
+        )
+        post_slugs_to_discord(
+            game_slugs[n:], webhook_keyword, turn_into_hyperlinks=turn_into_hyperlinks
+        )
 
     return response
