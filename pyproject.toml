@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "RUF", "FURB"]
+ignore = ["E501"]
+
+[tool.mypy]
+explicit_package_bases = true
+ignore_missing_imports = true

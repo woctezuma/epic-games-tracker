@@ -38,7 +38,7 @@ def filter_status(stdout, pattern):
 
 
 def daily_data_has_just_been_fetched():
-    stdout, stderr = git_status()
+    stdout, _stderr = git_status()
     return filter_status(stdout, DATA_NAME_PATTERN)
 
 

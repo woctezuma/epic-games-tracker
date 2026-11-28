@@ -7,8 +7,7 @@ OUTPUT_FOLDER = 'docs'
 
 def write_lines_to_disk(lines, fname) -> None:
     with Path(fname).open('w', encoding='utf8') as f:
-        for line in lines:
-            f.write(f"{line}\n")
+        f.writelines(f"{line}\n" for line in lines)
 
 
 def write_data_to_disk(data, fname) -> None:

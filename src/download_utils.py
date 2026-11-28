@@ -1,4 +1,5 @@
 import copy
+
 import cloudscraper
 
 from src.achievement_support_utils import supports_achievements

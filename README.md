@@ -44,6 +44,10 @@ python list_all_fixed_trophies.py
 
 Visit [the website][tracker-website].
 
+## Data format
+
+See [docs/data-format.md](docs/data-format.md) for a description of the JSON data files and of the generated Markdown tables.
+
 ## References
 
 - [`nikop/epic-games-ratings`][madjoki-egs-ratings]
