@@ -1,12 +1,12 @@
 import requests
 
 from src.api import TIMEOUT_IN_SECONDS
+from src.config import DISCORD_API_URL, STORE_URL
 from src.data_utils import load_discord_webhook
 from src.git_utils import extract_new_games, git_diff
 from src.webhook_utils import to_discord_header
 
 BULLET_POINT_SEPARATOR = "\n- "
-STORE_URL = "https://epicgames.com/p/"
 
 
 def to_hyperlink(game_slug: str) -> str:
@@ -27,7 +27,7 @@ def get_webhook_id(webhook_keyword='id'):
 
 
 def get_webhook_url(webhook_id) -> str:
-    return f"https://discord.com/api/webhooks/{webhook_id}"
+    return f"{DISCORD_API_URL}/{webhook_id}"
 
 
 def post_message_to_discord(message, webhook_id):
@@ -58,7 +58,7 @@ def post_git_diff_to_discord(fname, header, webhook_id=None):
     if webhook_id is None:
         webhook_id = get_webhook_id()
 
-    stdout, stderr = git_diff(fname)
+    stdout, _stderr = git_diff(fname)
     games = extract_new_games(stdout)
 
     message = format_discord_message(games, header=header)
