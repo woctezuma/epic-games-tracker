@@ -1,21 +1,25 @@
+commit_if_changed() {
+    git diff --cached --quiet || git commit -m "$1"
+}
+
 python prepare_webhooks.py
 
 python fetch_mappings_for_today.py
 
 git add data/page_mappings.json
-git commit -m "💼 Update page mappings"
+commit_if_changed "🐛 Update page mappings"
 
 git add data/sandbox_ids.json
-git commit -m "📌 Update tracked sandbox IDs"
+commit_if_changed "🤖 Update tracked sandbox IDs"
 
 python fetch_data_for_today.py
 
 python monitor_fixed_trophies.py
 
 git add data/20*/*
-git commit -m "🗃️ Add JSON data snapshot"
+commit_if_changed "🗃️ Add JSON data snapshot"
 
 git add docs/by_*.md
-git commit -m "📄 Update Markdown docs"
+commit_if_changed "📄 Update Markdown docs"
 
 git push
