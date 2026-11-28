@@ -1,7 +1,7 @@
 from src.achievement_fixes import list_slugs_with_fixed_achievements
+from src.data_utils import DATA_FOLDER_NAME, JSON_SUFFIX
 from src.json_utils import load_json
 from src.time_utils import list_data_file_names
-from src.data_utils import DATA_FOLDER_NAME, JSON_SUFFIX
 
 FNAME_PREFIX = f'{DATA_FOLDER_NAME}/'
 FNAME_SUFFIX = f'.{JSON_SUFFIX}'

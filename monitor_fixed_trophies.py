@@ -1,5 +1,6 @@
 from src.achievement_fixes import list_slugs_with_fixed_achievements
 from src.discord_utils import post_slugs_to_discord
+from src.git_utils import daily_data_has_just_been_fetched
 from src.json_utils import load_json, load_json_failsafe
 from src.time_utils import (
     get_fname_for_the_most_recent_of_past_days,
@@ -7,8 +8,6 @@ from src.time_utils import (
     get_fname_for_yesterday,
 )
 from src.webhook_utils import WEBHOOK_KEYWORD_FIXED_TROPHY
-
-from src.git_utils import daily_data_has_just_been_fetched
 
 
 def main() -> None:
